@@ -20,6 +20,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon'
 ]
+nbsphinx_codecell_lexer = 'none'
 
 templates_path = ['_templates']
 exclude_patterns = []
