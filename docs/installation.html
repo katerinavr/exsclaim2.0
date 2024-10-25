@@ -1,0 +1,195 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installation Guide &mdash; exsclaim2.0 2.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=a7e3f902"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+      <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Quick Start Guide" href="quick_start.html" />
+    <link rel="prev" title="Welcome to Project Name’s Documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            exsclaim2.0
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome to Project Name’s Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-a-virtual-environment">Setting Up a Virtual Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-dependencies">Install Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#additional-setup">Additional Setup</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html">1. Install EXSCLAIM! code and dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html#2.-Import-the-pretrained-models">2. Import the pretrained models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html#3.-Setting-up-your-query-json-file">3. Setting up your query json file</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html#4.-Run-EXSCLAIM!-to-scrap-data-from-Nature">4. Run EXSCLAIM! to scrap data from Nature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html#5.-Visualize-the-results">5. Visualize the results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">Create the dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html#Finetuning-YOLO_V11">Finetuning YOLO_V11</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">Data <strong>preparation</strong></a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">exsclaim2.0</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Installation Guide</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="installation-guide">
+<h1>Installation Guide<a class="headerlink" href="#installation-guide" title="Permalink to this heading"></a></h1>
+<p>This document provides instructions on how to set up and install the project.</p>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this heading"></a></h2>
+<p>Before installing, make sure you have the following installed:</p>
+<ul class="simple">
+<li><p>Python 3.11</p></li>
+<li><p>Git</p></li>
+<li><p>openai</p></li>
+</ul>
+<p>### Clone the Repository</p>
+<p>First, clone the repository to your local machine:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/katerinavr/exsclaim2.0.git
+<span class="nb">cd</span><span class="w"> </span>exsclaim2.0
+</pre></div>
+</div>
+</section>
+<section id="setting-up-a-virtual-environment">
+<h2>Setting Up a Virtual Environment<a class="headerlink" href="#setting-up-a-virtual-environment" title="Permalink to this heading"></a></h2>
+<p>It’s recommended to use a virtual environment to manage dependencies. Here’s how to create and activate one:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># On Windows</span>
+python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>env
+env<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+
+<span class="c1"># On macOS or Linux</span>
+python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>env
+<span class="nb">source</span><span class="w"> </span>env/bin/activate
+</pre></div>
+</div>
+</section>
+<section id="install-dependencies">
+<h2>Install Dependencies<a class="headerlink" href="#install-dependencies" title="Permalink to this heading"></a></h2>
+<p>Once in your virtual environment, install the required dependencies:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+<p>### Conda Alternative</p>
+<p>If you’re using Conda, you can create an environment with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environment.yml
+conda<span class="w"> </span>activate<span class="w"> </span>your-env-name
+</pre></div>
+</div>
+</section>
+<section id="additional-setup">
+<h2>Additional Setup<a class="headerlink" href="#additional-setup" title="Permalink to this heading"></a></h2>
+<p>Some parts of the project may require additional setup, such as environment variables or database configurations.</p>
+<ul>
+<li><p><strong>Environment Variables</strong>: Create a <cite>.env</cite> file in the root directory and add any required environment variables as shown below:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span># Example .env file
+API_KEY=your_api_key_here
+</pre></div>
+</div>
+</li>
+</ul>
+<p>Start the application with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>run_exsclaim.py
+</pre></div>
+</div>
+<p>If you encounter any issues, refer to the Troubleshooting section or contact the maintainers.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Project Name’s Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="quick_start.html" class="btn btn-neutral float-right" title="Quick Start Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Aikaterini Vriza.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

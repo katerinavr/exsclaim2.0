@@ -10,7 +10,7 @@
    self
    installation
    quick_start
-   Nature_exsclaim_search
+   scrape_multimodal_data_nature
    PDFScraper
    HTMLScraper
    train_yolov11
@@ -26,9 +26,9 @@ Sections:
 
 - `Installation <installation.html>`_: Steps to get exsclaim up and running.
 - `Quick Start <quick_start.html>`_: A fast-track guide to start using EXSCLAIM2.0.
-- `Scrape multimodal data from Nature journal <tutorials/Nature_exsclaim_search.ipynb>`_: Information on MOF adsorption for CO2.
-- `Scrape multimodal data from PDF files <tutorials/PDFScraper.ipynb>`_: Details on the peptide hemolytic functionality.
-- `Scrape multimodal data from HTML files <tutorials/HTMLScraper.ipynb>`_: Surfactant CMC properties explained.
-- `Finetune YOLOv11 for Figure separation <tutorials/train_yolov11.ipynb>`_: Comparing docking results between GNINA and AutoDock Vina.
-- `Microscopy Image retrieval <tutorials/Microscopy_CLIP_retrieval.ipynb>`_: Explanation of inverse design for specific applications.
+- `Scrape multimodal data from Nature journal <tutorials/Nature_exsclaim_search.html>`_: Information on MOF adsorption for CO2.
+- `Scrape multimodal data from PDF files <tutorials/PDFScraper.html>`_: Details on the peptide hemolytic functionality.
+- `Scrape multimodal data from HTML files <tutorials/HTMLScraper.html>`_: Surfactant CMC properties explained.
+- `Finetune YOLOv11 for Figure separation <tutorials/train_yolov11.html>`_: Comparing docking results between GNINA and AutoDock Vina.
+- `Microscopy Image retrieval <tutorials/Microscopy_CLIP_retrieval.html>`_: Explanation of inverse design for specific applications.
 
