@@ -24,7 +24,7 @@
         "id": "YaN28itd7Yy5"
       },
       "source": [
-        "# 1. Connect to Google driver for the dynamic javascript journal webpages"
+        "## 1. Connect to Google driver for the dynamic javascript journal webpages"
       ]
     },
     {
@@ -128,7 +128,7 @@
         "id": "yTQEf-c4Xf3U"
       },
       "source": [
-        "# 2. Install EXSCLAIM! code and dependencies\n",
+        "## 2. Install EXSCLAIM! code and dependencies\n",
         "\n",
         "\n",
         "\n"
@@ -178,7 +178,7 @@
         "id": "SeDsJXECY9bQ"
       },
       "source": [
-        "# 3. Import the pretrained models"
+        "## 3. Import the pretrained models"
       ]
     },
     {
@@ -220,7 +220,7 @@
         "id": "vSJeHgHJguSy"
       },
       "source": [
-        "# 4. Setting up your query json file"
+        "## 4. Setting up your query json file"
       ]
     },
     {
@@ -306,7 +306,7 @@
         "id": "gblFeWP8ZLlX"
       },
       "source": [
-        "# 5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals"
+        "## 5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals"
       ]
     },
     {
