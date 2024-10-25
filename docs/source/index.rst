@@ -16,7 +16,7 @@
    train_yolov11
    Microscopy_CLIP_retrieval
 
-Welcome to Project Name's Documentation
+Welcome to EXSCLAIM2 Documentation
 =======================================
 
 This documentation will guide you through the key components of the project.
