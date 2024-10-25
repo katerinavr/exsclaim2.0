@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 EXSCLAIM2.0: LLM-powered Automatic **EX**traction, **S**eparation, and **C**aption-based natural **L**anguage **A**nnotation of **IM**ages from scientific figures
 
 
@@ -64,4 +63,3 @@ labeling of materials imaging datasets from scientific literature. arXiv e-print
 ```
 =======
 # exsclaim2.0
->>>>>>> 2832c7ecac6b1355f5e879af6bb4c3364f64cb75
