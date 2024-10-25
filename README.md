@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 EXSCLAIM2.0: LLM-powered Automatic **EX**traction, **S**eparation, and **C**aption-based natural **L**anguage **A**nnotation of **IM**ages from scientific figures
 
 
@@ -61,3 +62,6 @@ If you find EXSCLAIM2.0 useful, please encourage its development by citing the f
 - Schwenker, E., Jiang, W. Spreadbury, T., Ferrier N., Cossairt, O., Chan M.K.Y., EXSCLAIM! - An automated pipeline for the construction and
 labeling of materials imaging datasets from scientific literature. arXiv e-prints (2021): arXiv-2103
 ```
+=======
+# exsclaim2.0
+>>>>>>> 2832c7ecac6b1355f5e879af6bb4c3364f64cb75
