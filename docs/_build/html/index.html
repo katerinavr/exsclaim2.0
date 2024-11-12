@@ -1,23 +1,27 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="en">
+<html class="writer-html5" lang="en" data-content_root="./">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to EXSCLAIM2 Documentation &mdash; exsclaim2.0 2.0 documentation</title>
+  <title>EXSCLAIM 2.0 &mdash; exsclaim 2.0 2.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=a7e3f902"></script>
-      <script src="_static/doctools.js?v=888ff710"></script>
-      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+      <script src="_static/documentation_options.js?v=60dbed4a"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
       <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
+      <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -33,7 +37,7 @@
           
           
           <a href="#" class="icon icon-home">
-            exsclaim2.0
+            exsclaim 2.0
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -44,22 +48,14 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to EXSCLAIM2 Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">EXSCLAIM 2.0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
-<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">Create the dataset</a></li>
-<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html#Finetuning-YOLO_V11">Finetuning YOLO_V11</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">Data <strong>preparation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html">1. Running a simple example in Nature journal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">2. Scraping data from PDF files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">3. Scraping data from HTML files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">4. Finetuning YOLOv11 on compound separation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">5. Retrieve microscopy data with MicroscopyCLIP model</a></li>
 </ul>
 
         </div>
@@ -68,7 +64,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">exsclaim2.0</a>
+          <a href="#">exsclaim 2.0</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -76,7 +72,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Welcome to EXSCLAIM2 Documentation</li>
+      <li class="breadcrumb-item active">EXSCLAIM 2.0</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -86,22 +82,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <div class="toctree-wrapper compound">
-</div>
-<section id="welcome-to-exsclaim2-documentation">
-<h1>Welcome to EXSCLAIM2 Documentation<a class="headerlink" href="#welcome-to-exsclaim2-documentation" title="Permalink to this heading"></a></h1>
-<p>This documentation will guide you through the key components of the project.</p>
-<section id="sections">
-<h2>Sections:<a class="headerlink" href="#sections" title="Permalink to this heading"></a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="installation.html">Installation</a>: Steps to get exsclaim up and running.</p></li>
-<li><p><a class="reference external" href="quick_start.html">Quick Start</a>: A fast-track guide to start using EXSCLAIM2.0.</p></li>
-<li><p><a class="reference external" href="tutorials/Nature_exsclaim_search.html">Scrape multimodal data from Nature journal</a>: Information on MOF adsorption for CO2.</p></li>
-<li><p><a class="reference external" href="tutorials/PDFScraper.html">Scrape multimodal data from PDF files</a>: Details on the peptide hemolytic functionality.</p></li>
-<li><p><a class="reference external" href="tutorials/HTMLScraper.html">Scrape multimodal data from HTML files</a>: Surfactant CMC properties explained.</p></li>
-<li><p><a class="reference external" href="tutorials/train_yolov11.html">Finetune YOLOv11 for Figure separation</a>: Comparing docking results between GNINA and AutoDock Vina.</p></li>
-<li><p><a class="reference external" href="tutorials/Microscopy_CLIP_retrieval.html">Microscopy Image retrieval</a>: Explanation of inverse design for specific applications.</p></li>
+  <section id="exsclaim-2-0">
+<h1>EXSCLAIM 2.0<a class="headerlink" href="#exsclaim-2-0" title="Link to this heading"></a></h1>
+<p>Welcome to the EXSCLAIM 2.0 documentation! This guide will walk you through the essential components of using our pipeline to create multimodal datasets from scientific literature.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="_images/Figure1_exsclaim.jpeg"><img alt="Schematic of the EXSCLAIM 2.0 pipeline" src="_images/Figure1_exsclaim.jpeg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Schematic of the EXSCLAIM 2.0 pipeline. Our framework synergistically combines large language models (LLMs) with prompt engineering for image captioning and understanding, and computer vision models for image separation and information extraction. It processes open-access articles, PDF and HTML file formats, extracting text and images, and organizing them into a structured format. This structured data enables the creation of databases that can be used for metadata extraction, training multimodal models, and efficient information retrieval.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Check out our Hugging Face Space for microscopy image retrieval: <a class="reference external" href="https://huggingface.co/spaces/kvriza8/microscopy_images">Hugging Face Space</a>.</p>
+<section id="contents">
+<h2>Contents:<a class="headerlink" href="#contents" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">EXSCLAIM 2.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html">1. Running a simple example in Nature journal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">2. Scraping data from PDF files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">3. Scraping data from HTML files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">4. Finetuning YOLOv11 on compound separation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">5. Retrieve microscopy data with MicroscopyCLIP model</a></li>
 </ul>
+</div>
 </section>
 </section>
 

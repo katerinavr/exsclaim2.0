@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'exsclaim2.0'
+project = 'exsclaim 2.0'
 copyright = '2024, Aikaterini Vriza'
 author = 'Aikaterini Vriza'
 release = '2.0'
@@ -18,7 +18,8 @@ extensions = [
     'nbsphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    "sphinx_design"
 ]
 nbsphinx_codecell_lexer = 'none'
 
@@ -29,3 +30,5 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+nbsphinx_allow_errors = True
+suppress_warnings = ['misc.highlighting_failure']

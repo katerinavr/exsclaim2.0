@@ -20,6 +20,9 @@
 
     "openai_API": YOUR_API_KEY,
 
+    "context_retrieval": true, 
+    
+    "materials_ner": true ,
 
     "open": false,
 
