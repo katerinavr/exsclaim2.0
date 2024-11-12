@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # folders
 tutorials/
+exsclaim/figures/checkpoints/*
+output/
 
-=======
->>>>>>> 2832c7ecac6b1355f5e879af6bb4c3364f64cb75
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

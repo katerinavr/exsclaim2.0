@@ -1,34 +1,34 @@
-.. exsclaim2.0 documentation master file, created by
+.. EXSCLAIM 2.0 documentation master file, created by
    sphinx-quickstart on Fri Oct 25 16:06:59 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+EXSCLAIM 2.0
+=======================================
+
+Welcome to the EXSCLAIM 2.0 documentation! This guide will walk you through the essential components of using our pipeline to create multimodal datasets from scientific literature.
+
+.. figure:: _static/Figure1_exsclaim.jpeg
+   :alt: Schematic of the EXSCLAIM 2.0 pipeline
+   :align: center
+   :width: 100%
+
+   Schematic of the EXSCLAIM 2.0 pipeline. Our framework synergistically combines large language models (LLMs) with prompt engineering for image captioning and understanding, and computer vision models for image separation and information extraction. It processes open-access articles, PDF and HTML file formats, extracting text and images, and organizing them into a structured format. This structured data enables the creation of databases that can be used for metadata extraction, training multimodal models, and efficient information retrieval.
+
+Check out our Hugging Face Space for microscopy image retrieval: `Hugging Face Space <https://huggingface.co/spaces/kvriza8/microscopy_images>`_.
+
+Contents:
+---------
+
 .. toctree::
-   :maxdepth: 2
-   :hidden:
+   :maxdepth: 1
 
    self
    installation
    quick_start
-   scrape_multimodal_data_nature
+   Nature_exsclaim_search
    PDFScraper
    HTMLScraper
    train_yolov11
    Microscopy_CLIP_retrieval
-
-Welcome to EXSCLAIM2 Documentation
-=======================================
-
-This documentation will guide you through the key components of the project.
-
-Sections:
----------
-
-- `Installation <installation.html>`_: Steps to get exsclaim up and running.
-- `Quick Start <quick_start.html>`_: A fast-track guide to start using EXSCLAIM2.0.
-- `Scrape multimodal data from Nature journal <tutorials/Nature_exsclaim_search.html>`_: Information on MOF adsorption for CO2.
-- `Scrape multimodal data from PDF files <tutorials/PDFScraper.html>`_: Details on the peptide hemolytic functionality.
-- `Scrape multimodal data from HTML files <tutorials/HTMLScraper.html>`_: Surfactant CMC properties explained.
-- `Finetune YOLOv11 for Figure separation <tutorials/train_yolov11.html>`_: Comparing docking results between GNINA and AutoDock Vina.
-- `Microscopy Image retrieval <tutorials/Microscopy_CLIP_retrieval.html>`_: Explanation of inverse design for specific applications.
 
