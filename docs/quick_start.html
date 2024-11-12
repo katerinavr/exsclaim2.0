@@ -1,27 +1,29 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="en">
+<html class="writer-html5" lang="en" data-content_root="./">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quick Start Guide &mdash; exsclaim2.0 2.0 documentation</title>
+  <title>Quick Start Guide &mdash; exsclaim 2.0 2.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=a7e3f902"></script>
-      <script src="_static/doctools.js?v=888ff710"></script>
-      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+      <script src="_static/documentation_options.js?v=60dbed4a"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/design-tabs.js?v=f930bc37"></script>
       <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. Connect to Google driver for the dynamic javascript journal webpages" href="PDFScraper.html" />
+    <link rel="next" title="1. Running a simple example in Nature journal" href="Nature_exsclaim_search.html" />
     <link rel="prev" title="Installation Guide" href="installation.html" /> 
 </head>
 
@@ -34,7 +36,7 @@
           
           
           <a href="index.html" class="icon icon-home">
-            exsclaim2.0
+            exsclaim 2.0
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -45,22 +47,14 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome to EXSCLAIM2 Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">EXSCLAIM 2.0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation Guide</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">1. Connect to Google driver for the dynamic javascript journal webpages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#2.-Install-EXSCLAIM!-code-and-dependencies">2. Install EXSCLAIM! code and dependencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#3.-Import-the-pretrained-models">3. Import the pretrained models</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#4.-Setting-up-your-query-json-file">4. Setting up your query json file</a></li>
-<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html#5.-Run-EXSCLAIM!-to-scrap-data-from-HTMLs-from-Nature,-ACS,-Wiley-and-RSC-journals">5. Run EXSCLAIM! to scrap data from HTMLs from Nature, ACS, Wiley and RSC journals</a></li>
-<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">Create the dataset</a></li>
-<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html#Finetuning-YOLO_V11">Finetuning YOLO_V11</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">Data <strong>preparation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Nature_exsclaim_search.html">1. Running a simple example in Nature journal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PDFScraper.html">2. Scraping data from PDF files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HTMLScraper.html">3. Scraping data from HTML files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_yolov11.html">4. Finetuning YOLOv11 on compound separation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Microscopy_CLIP_retrieval.html">5. Retrieve microscopy data with MicroscopyCLIP model</a></li>
 </ul>
 
         </div>
@@ -69,7 +63,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">exsclaim2.0</a>
+          <a href="index.html">exsclaim 2.0</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -88,24 +82,97 @@
            <div itemprop="articleBody">
              
   <section id="quick-start-guide">
-<h1>Quick Start Guide<a class="headerlink" href="#quick-start-guide" title="Permalink to this heading"></a></h1>
-<p>This guide will help you quickly get started with using the project.</p>
+<h1>Quick Start Guide<a class="headerlink" href="#quick-start-guide" title="Link to this heading"></a></h1>
+<p>This guide will help you quickly get started with using exsclaim 2.0.</p>
 <ol class="arabic">
 <li><p><strong>Install the Project</strong></p>
-<p>Follow the instructions in the <a class="reference internal" href="installation.html"><span class="doc">Installation Guide</span></a> guide to set up the project.</p>
+<p>Follow the instructions in the <a class="reference internal" href="installation.html"><span class="doc">Installation Guide</span></a> guide to set up your environment.</p>
 </li>
-<li><p><strong>Launch the Application</strong></p>
-<p>After installation, you can start the application with the following command:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>run_exsclaim.py
+<li><p><strong>Configure `query.json`</strong></p>
+<p>Before running the application, you need to configure the <cite>query.json</cite> file with your custom settings.</p>
+<p><strong>Example Configuration of `query.json`</strong>:</p>
+<p>Below is an example configuration of <cite>query.json</cite>, which serves as the input to the pipeline. You can find additional example queries under <cite>/exsclaim/query</cite>.</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nature_ESEM&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;journal_family&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;nature&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;maximum_scraped&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">500</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;sortby&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;relevant&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;search_field_1&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;term&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ESEM&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;synonyms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Environmental SEM&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Environmental Scanning Electron Microscope&quot;</span><span class="p">]</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;llm&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gpt-3.5-turbo&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;openai_API&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_openai_api_key_here&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;context_retrieval&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;materials_ner&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;open&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;save_format&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;boxes&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;save_subfigures&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;csv&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;logging&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;print&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;exsclaim.log&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Notes</strong>:</p>
+<ul class="simple">
+<li><p>Replace <cite>“your_openai_api_key_here”</cite> with your actual OpenAI API key.</p></li>
+</ul>
+<p><strong>Description of fields</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>`name`</strong>: The name of the folder where the files will be saved.</p></li>
+<li><p><strong>`journal_family`</strong>: Choose from <cite>Nature</cite>, <cite>ACS</cite>, <cite>RSC</cite>, or <cite>Wiley</cite>.</p></li>
+<li><p><strong>`maximum_scraped`</strong>: Define the number of papers to scrape data from.</p></li>
+<li><p><strong>`query`</strong>: Specify search terms and their synonyms.</p></li>
+<li><p><strong>`open`</strong>: Indicates if the articles are open access.</p></li>
+<li><p><strong>`save_format`</strong>: Options for saving output:
+- <cite>“boxes”</cite>: Draw bounding boxes.
+- <cite>“visualization”</cite>: Save subfigures with their labels.
+- <cite>“csv”</cite>: Save extracted data in CSV format.</p></li>
+<li><p><strong>`logging`</strong>: Options for logging events (e.g., <cite>“print”</cite> to display events).</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Using the HTMLScraper and PDFScraper</strong></p>
+<p>When using the <cite>HTMLScraper</cite> or the <cite>PDFScraper</cite>, you need to create a folder (<cite>my_files</cite>) and upload your HTML/PDF files. Then, update the folder location in <cite>query.json</cite> as shown below:</p>
+<p><strong>Example Configuration for HTMLScraper</strong>:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;html-tem&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;html_folder&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;my_files&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;llm&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gpt-3.5-turbo&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;openai_API&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_openai_api_key_here&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;save_format&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;boxes&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;save_subfigures&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;csv&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;logging&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;print&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;exsclaim.log&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Follow examples 2 and 3 to scrape multimodal data using your selected literature papers.</p>
+</li>
+<li><p><strong>Additional Setup</strong></p>
+<p>Some parts of the project may require additional setup, such as environment variables or database configurations.</p>
+<ul>
+<li><p><strong>Environment Variables</strong>: Create a <cite>.env</cite> file in the root directory and add any required environment variables as shown below:</p>
+<p><strong>Example .env file</strong>:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>OPENAI_API_KEY=your_openai_api_key_here
+HUGGINGFACE_API_TOKEN=your_hf_token_here
 </pre></div>
 </div>
 </li>
-<li><p><strong>Troubleshooting</strong></p>
-<ul class="simple">
-<li><p>If you encounter any issues, check the <a class="reference internal" href="installation.html"><span class="doc">Installation Guide</span></a> guide or consult the FAQ section.</p></li>
 </ul>
 </li>
+<li><p><strong>Launch the Application</strong></p>
+<p>After configuring everything, start the application with the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Load necessary models</span>
+python<span class="w"> </span>load_models.py
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Run the main application</span>
+python<span class="w"> </span>run_exsclaim.py
+</pre></div>
+</div>
+</li>
 </ol>
+<p>If you encounter any issues, please contact the maintainers.</p>
 </section>
 
 
@@ -113,7 +180,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="installation.html" class="btn btn-neutral float-left" title="Installation Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="PDFScraper.html" class="btn btn-neutral float-right" title="1. Connect to Google driver for the dynamic javascript journal webpages" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Nature_exsclaim_search.html" class="btn btn-neutral float-right" title="1. Running a simple example in Nature journal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
