@@ -1,7 +1,7 @@
 # folders
 tutorials/
-pdf_files/*
 exsclaim/figures/checkpoints/*
+output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,970 @@
+2206118  (1 of 11)
+© 2022 Wiley-VCH GmbH
+www.advmat.de
+All-Polymer Bulk-Heterojunction Organic Electrochemical 
+Transistors with Balanced Ionic and Electronic Transport
+Xihu Wu, Teck Lip Dexter Tam,* Shuai Chen, Teddy Salim, Xiaoming Zhao,  
+Zhongliang Zhou, Ming Lin, Jianwei Xu, Yueh-Lin Loo, and Wei Lin Leong*
+DOI: 10.1002/adma.202206118
+widely used for bioelectronics is the organic 
+electrochemical 
+transistors 
+(OECTs), 
+which offer the advantages of low opera-
+tion voltage (<1 V), high sensitivity, and 
+excellent aqueous operating capability.[7–9] 
+In particular, the high sensitivity originates 
+from the amplification of the input voltage 
+to current through the bulk doping effect 
+of the conjugated polymers from an ionic 
+source (for example, aqueous electrolyte). 
+The past few years have seen advances in 
+new materials development, mixed ionic/
+electronic transport understanding, and 
+individual 
+high 
+performing 
+p-/n-type 
+OECT demonstrations.[10–15] The push for 
+OECT-based complementary metal–oxide–
+semiconductor (CMOS) logic configura-
+tion is driven by the desire for devices with 
+lower power consumption and smaller 
+physical layout as compared with the uni-
+polar p-type or n-type circuit configura-
+tions.[3,16] The use of individual p-type and 
+n-type OECTs to form CMOS inverters has 
+attained gain values of up to 100 V V−1, 
+mainly through the engineering of the channel dimensions 
+and thickness to improve the imbalance between the electron 
+and hole currents.[17–19] In these CMOS inverters, the p-type 
+polymers can be poly(3,4-ethylene-dioxythiophene):polystyrene 
+sulfonate (PEDOT:PSS),[17] conjugated polymers with glycolated 
+side chains to facilitate ion transports like p(g42T-T),[16,19] conju-
+gated polyelectrolyte poly(3-carboxypentylthiophene) (P3CPT),[11] 
+The rapid development of organic electrochemical transistor (OECTs)-based 
+circuits brings new opportunities for next-generation integrated bioelec-
+tronics. The all-polymer bulk-heterojunction (BHJ) offers an attractive, 
+inexpensive alternative to achieve efficient ambipolar OECTs, and building 
+blocks of logic circuits constructed from them, but have not been investigated 
+to date. Here, the first all-polymer BHJ-based OECTs are reported, consisting 
+of a blend of new p-type ladder conjugated polymer and a state-of-the-art 
+n-type ladder polymer. The whole ladder-type polymer BHJ also proves that 
+side chains are not necessary for good ion transport. Instead, the polymer 
+nanostructures play a critical role in the ion penetration and transportation 
+and thus in the device performance. It also provides a facile strategy and 
+simplifies the fabrication process, forgoing the need to pattern multiple active 
+layers. In addition, the development of complementary metal–oxide–semi-
+conductor (CMOS)-like OECTs allows the pursuit of advanced functional 
+logic circuitry, including inverters and NAND gates, as well as for amplifying 
+electrophysiology signals. This work opens a new approach to the design of 
+new materials for OECTs and will contribute to the development of organic 
+heterojunctions for ambipolar OECTs toward high-performing logic circuits.
+Research Article
+1. Introduction
+Conjugated polymers with mixed ionic–electronic conducting 
+properties are attracting substantial attention for applications 
+in bioelectronics, electrochromic displays, thermoelectrics, 
+neuromorphic computing, and energy storage devices.[1–6] One 
+emerging device that uses these conjugated polymers and is 
+X. Wu, S. Chen, Z. Zhou, W. L. Leong
+School of Electrical and Electronic Engineering
+Nanyang Technological University
+50 Nanyang Avenue, Singapore 639798, Singapore
+E-mail: wlleong@ntu.edu.sg
+T. L. D. Tam, J. Xu
+Institute of Sustainability for Chemical
+Engineering and Environment (ISCE2)
+Agency of Science
+Technology and Research (A*STAR)
+1 Pesek Road, Singapore 627833, Singapore
+E-mail: dexter-tam@isce2.a-star.edu.sg
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adma.202206118.
+T. Salim
+School of Materials Science and Engineering
+Nanyang Technological University
+Singapore 639798, Singapore
+X. Zhao, Y.-L. Loo
+Department of Chemical and Biological Engineering
+Princeton University
+Princeton, NJ 08544, USA
+M. Lin, J. Xu
+Institute of Materials Research and Engineering (IMRE)
+Agency of Science
+Technology and Research (A*STAR)
+2 Fusionopolis Way, Innovis, Singapore 138634, Singapore
+J. Xu
+Department of Chemistry
+National University of Singapore
+3 Science Drive 3, Singapore 117543, Singapore
+Adv. Mater. 2022, 34, 2206118
+
+© 2022 Wiley-VCH GmbH
+2206118  (2 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+while the n-type polymer used is only based on ladder-type pol
+y(benzimidazobenzophenanthrolinedione) (BBL), which is cur-
+rently the best performing n-type OECT.[19,20] It was also found 
+that the lack of side chains does not affect the BBL-based OECT 
+peformance and possesses great stability due to the negligible 
+swelling behavior.[20] Although the complementary logic circuit 
+based on these individual p-type and n-type based OECTs exhibit 
+good performance, the manufacturing process is more complex 
+with the need to micropattern p- and n-channels separately.
+Ambipolar behavior that can provide both n- and p-channel 
+performance in a single device is therefore very important for 
+lower-cost, monolithic manufacturing of CMOS integrated  
+circuits.[18,21,22] This has led to the search for novel ambipolar 
+conjugated polymers for OECT-based circuits. One of the first 
+polymers employed in ambipolar OECTs contains diketopyr-
+rolopyrrole structure and showed balanced hole and elec-
+tron transport. However, the transient speed is rather slow  
+(≈1.8 s).[22] While such response speeds may be sufficient for 
+limited sensing applications, they are insufficient for advanced 
+integrated bioelectronics such as electrooculography (EOG), 
+electrocardiogram (ECG), and other in vitro electrophysiolog-
+ical monitoring. The other challenge hampering the practical 
+applications of ambipolar inverters lies in the relatively high 
+threshold voltage (VT > 0.8 V), which leads to the requirement 
+of a high drain bias (VDD) value for a high voltage gain (e.g., 
+a maximum gain value of 50 at VDD  = 1.4 V,[22] or only 12 at  
+VDD  = 0.8 V).[21] A high bias voltage makes the operational 
+stability of the devices in aqueous environments a challenge.  
+The stability of the ambipolar OECT devices is limited so far, 
+where the performance of either p-type, n-type, or both can 
+degrade during continuous operation. The energy levels of 
+the ambipolar OECT materials need to be carefully tailored to 
+avoid side reactions with water and oxygen and to suppress self-
+doping behavior, and thus ensuring the long-term stability of 
+the doped states in aqueous environment.[21,22] Encapsulation 
+of the devices or removal of dissolved oxygen from electrolytes 
+is often required to improve the operational stability. Although 
+synthesizing novel ambipolar conjugated polymers has proven 
+to be an effective avenue for the design of ambipolar logic 
+circuits, it is still challenging in combining their respective 
+advanced features (including fast transient speed, low VT, high 
+voltage gain, ambipolar inverter behaviors, stability, etc.) into a 
+single system to date. More recently, by engineering the device 
+configuration, an ambipolar inverter based on cofacial vertical 
+OECT pairs showed a voltage gain of 28 (at VDD = 0.8 V) and 
+has been successfully used as an analog voltage preamplifier for 
+recording electrocardiogram signals.[18] Although the approach 
+of using cofacial vertical OECT pairs holds promise for the 
+development of high-gain inverters, the ambipolar behavior is 
+still governed by the developed ambipolar conjugated polymers.
+Another promising way to achieve ambipolar transportation 
+is by controlling the mixing and phase separation of two active 
+semiconductor components: one electron transporting and the 
+other hole transporting. Such mixing of donor and acceptor 
+materials is akin to those commonly employed in organic solar 
+cells, typically called organic bulk heterojunctions (BHJs).[23–26]  
+However, the concept of BHJ is yet to be implemented in 
+OECTs for the tuning of the p- and n-type phases and hence 
+balanced hole and electron transport. This is most probably 
+due to the solvent compatibility issues as well as the scarcity 
+of high-performing and soluble n-type polymers, where most 
+p-type polymers for OECTs are dissolved in polar solvents while 
+the current state-of-the-art BBL polymer employs acid-based 
+solvents.
+Here, we report for the first time, polymer BHJ based OECTs 
+that can be doped by both cations and anions, consisting of a blend 
+of a new p-type 6H-pyrrolo[3,2-b:4,5-b’]bis[1,4]benzothiazine  
+ladder (PBBTL) polymer, and the state-of-the-art n-type BBL. 
+Furthermore, the new p-type PBBTL is the first reported ladder-
+type conjugated polymer (without any side chains) that still 
+possesses good electronic/ionic transport for OECTs, with µC* 
+value of 4.82 ± 1.63 F cm−1 V−1 s−1. The BHJ is implemented 
+by solution casting the all-polymer PBBTL:BBL blend, resulting 
+in a bicontinuous network of homogeneously distributed junc-
+tions between the PBBTL and BBL interfaces. The tuning of the 
+p-type and n-type phases in the BHJ allows the development 
+of OECTs with good ambipolar properties, attaining balanced 
+µC* values 2.72 ± 1.04 and 1.36 ± 0.81 F cm−1 V−1 s−1 for p-type 
+and n-type operation, respectively. In these p/n-channel semi-
+conducting BHJs, the hole and electron current are balanced 
+for the pull-down and pull-up channels, while having relatively 
+low VT. Thanks to the ambipolar feature of BHJ OECTs, the 
+developed ambipolar inverter is able to process three bits of 
+information (i.e., 0, +1, and −1), yielding high voltage gain value 
+of 42 V V−1 (at VDD = −0.6 V) and 31 V V−1 (at VDD = 0.6 V).  
+The obtained good ambipolar BHJ device performance is 
+attributed to their porous fibrillar network which allows rapid 
+penetration and transport of both the cations and anions in 
+the bulk channel. As a result of the porous fibrillar network, 
+the optimized BHJ OECTs showed good transient speeds of  
+3.05 ms and 1.72 ms as p-type and n-type channel, respectively. 
+The use of this BHJ OECTs complementary inverter to amplify 
+electrooculography (EOG) signals is also demonstrated. Our 
+work, therefore, presents a new potential route for the design 
+of mixed ionic–electronic conducting polymers, and provides a 
+facile strategy to develop all-polymer BHJ OECTs with balanced 
+electron and hole transport, and ultimately achieve high ampli-
+fication and easy scaling for integrated circuits.
+2. Results and Discussion
+2.1. New p-Type Ladder Conjugated Polymer for OECTs
+The synthetic route of PBBTL (Figure 1a) followed a previous 
+work.[27] Cyclic voltammetry (CV) was performed to understand 
+the electrochemical redox reactions of PBBTL in 0.1 m aqueous 
+NaCl solution, as presented in Figure S1a (Supporting Informa-
+tion), yielding an oxidation onset potential of +0.35 V vs Ag/AgCl  
+electrode. The optical properties of this ladder PBBTL polymer 
+were characterized by UV–vis absorption measurements, 
+showing strong absorption range from 300–750 nm with 
+three characteristic peaks at 445, 675, and 748 nm respectively  
+(Figure S1b, Supporting Information). The highest occupied 
+molecular orbital (HOMO) energy level is determined to be 
+relatively deep (−5.21 eV, Figure S2, Supporting Information) 
+which might: i) prevent the occurrence of non-capacitive fara-
+daic side-reaction in oxygen-containing aqueous electrolyte 
+Adv. Mater. 2022, 34, 2206118
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (3 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+and thus improving the electrochemical redox stability of the 
+polymer,[22,27,28] and ii) avoid the self-doping behavior,[28] there-
+fore enabling accumulation mode in the OECT (achieving OFF 
+state in the absence of gate bias).
+Figure  1b presents the device configuration of a PBBTL-
+based OECT, in which the PBBTL polymer was in contact with 
+the source/drain electrodes and in direct exposure to 0.1 m  
+NaCl electrolyte. An Ag/AgCl gate electrode was immersed 
+into the electrolyte to modulate the ions in or out of the bulk 
+channel and thus electrochemical doping of PBBTL channel. 
+Specifically, upon application of a negative gate bias (VG), the 
+Cl− anions from the electrolyte were injected into the PBBTL 
+channel, starting the electrochemical doping process, allowing 
+hole accumulation in the bulk channel and hence increased 
+drain current (Figure  1c and Figure S3, Supporting Informa-
+tion). The obtained PBBTL device shows a threshold voltage 
+(VT) of −0.41 V (Figure S4a, Supporting Information) and a high 
+drain current ON/OFF ratio of ≈105 (Figure S4b, Supporting 
+Information). It is worth noting that this PBBTL channel was 
+completely OFF at VG = 0 V, enabling the device to be operated 
+in accumulation mode, most probably attributed to the rela-
+tively deep HOMO energy level and in good agreement with 
+the positive onset voltage observed by CV (Figure S1a, Sup-
+porting Information).
+One figure-of-merit that represents the steady state device per-
+formance is the transconductance gm, which can be expressed as:
+µ
+/
+/
+m
+D
+G
+*
+T
+G
+g
+I
+V
+Wd L
+C
+V
+V
+(
+)
+(
+)
+= ∂
+∂
+=
+−
+
+(1)
+where ID and VG are the drain current and gate bias, respec-
+tively, W, d, and L are the channel width, thickness, and length, 
+respectively, µ is the carrier mobility, and C* is the volumetric 
+capacitance. As shown in Figure  1d, a peak transconductance 
+gm of 148 µS was obtained, and the normalized gm (normal-
+ized by the channel dimension of dW/L) is 0.58 ± 0.17 S cm−1. 
+Negligible hysteresis was seen in both transfer and output 
+characteristics, indicating good ion penetration and transport 
+efficiency into or out of the bulk channel. The ionic–electronic 
+properties of the PBBTL were next evaluated by the product 
+of µC*,[29] yielding a µC* value of 4.82 ± 1.63 F cm−1 V−1 s−1 
+(averaged from more than 12 devices with different channel 
+geometries, see Figure 1e, Figure S5a and Table S1, Supporting 
+Information). An obvious enhancement in the transconduct-
+ance when the channel geometry was increased through the 
+Adv. Mater. 2022, 34, 2206118
+Figure 1.  Characterization of the new p-type ladder-type polymer. a) Molecular structure of PBBTL, and b) schematic of OECTs device configuration.  
+c) A representative output characteristic for the PBBTL-based OECTs (channel width/length = 100/5 µm, thickness d = 102 nm) with a VD sweep rate 
+of 0.05 V s−1, and VG varying from 0 to −0.6 V at a step of −0.1 V, and d) the associated transfer curve with the corresponding transconductance, at 
+VD = −0.3 V with a VG sweep rate of 0.05 V s−1, operated in 0.1 m NaCl aqueous electrolyte. e) Benchmarking of this new ladder-type conjugated polymer 
+against those reported in the literature on OECTs. f) The drain current transient response of this PBBTL OECTs under a square gate bias with a pulse 
+width of 50 ms, at VD = −0.3 V. g) Electrochemical impedance spectroscopy (EIS) of the PBBTL film operated in 0.1 m NaCl aqueous electrolyte under 
+a constant DC bias of −0.8 V. h) Pulse stability of PBBTL OECT operated in 0.1 m NaCl, with VG varying from 0 to −0.6 V, at VD = −0.3V.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (4 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+tuning of the channel thickness (d) was observed, clearly indi-
+cating the volumetric doping processes in this PBBTL channel 
+(Figure S5b, Supporting Information). As detailed in Table S1  
+(Supporting Information), the PBBTL-based OECTs show 
+modest normalized gm and µC* values when compared to the 
+reported accumulation mode OECTs.[12,15,19,28,30–35] However, 
+it displayed a fast transient response with τON  = 2.7 ms and 
+τOFF  = 1.1 ms (Figure  1f), even when the polymer structure 
+lacks any glycolated side chains, which is 103 times faster than 
+the other hydrophobic conjugated polymers based OECT (like 
+poly[2,5-bis(3-tetradecylthiophen-2-yl) 
+thieno[3,2-b]thiophene]  
+and poly(3-(methoxyethoxybutyl)thiophene)),[36,37] around 10 times  
+faster than some of the ethylene glycol (EG)-functionalized conju-
+gated polymers (such as PIBET-AO/PIBET-O based devices),[33] 
+while comparable to the state-of-the-art p(g2T-TT) and 
+p(gPyDPP-MeOT2) polymers (Table S1, Supporting Informa-
+tion).[12,15,28,30] Overall, it is noteworthy that this new ladder-type  
+material (PBBTL) exhibits both encouragingly good ionic and 
+electronic conducting properties, even in the absence of glyco-
+lated side chains.
+In situ UV–vis spectrum measurement was employed to 
+gain insight into the electrochemical doping-dedoping mecha-
+nisms for this new ladder-type polymer. The evolution in the 
+absorption spectra directly reflects the changes in its electronic 
+band structure and thus the electrochemical doping efficiency. 
+Upon progressive increment of the bias (from 0 to 0.8 V, at 
+a step of 0.025 V) (Figure S6, Supporting Information), the  
+Cl− anions from the electrolyte were injected into the PBBTL 
+film, leading to the gradual disappearance of the transition 
+peaks centered at 445, 675, and 748 nm while one new absorp-
+tion features beyond 800 nm (ascribed to polaron transition) 
+emerged. The change in the absorption characteristics indicates 
+that the PBBTL film was electrochemically doped by the injected 
+ions and switched from neutral to oxidized state (PBBTL+) and 
+underwent charge accumulation. Electrochemical impedance 
+spectroscopy (EIS) was next employed to extract the C* which 
+indicates the efficiency of ion penetration from the electrolyte 
+into the active channel. As shown in Figure 1g and Figure S7 
+(Supporting Information), a high C* value of 143 F cm−3 was 
+attained. The holes mobility was extracted using equation (1), 
+yielding a value of 0.034 ± 0.014 cm2 V−1 s−1. Additionally, we 
+found that the PBBTL polymer shows a good reversible elec-
+trochemical redox process in aqueous environment, where no 
+significant drain current degradation was observed after 5000 
+cycles of pulse measurement (Figure 1h).
+2.2. Bulk-Heterojunction OECTs Ambipolar Operation
+The all-polymer donor–acceptor heterojunction, consisting of 
+the new p-type ladder polymer (PBBTL) and an n-type ladder con-
+jugated polymer (BBL) (Figure 2a), was prepared by dissolving 
+PBBTL and BBL in methanesulfonic acid (MSA), at different 
+mass ratios (see details in experimental section). BBL is currently 
+the best performing n-type OECT polymer, exhibiting good 
+n-type performance and excellent stability (Figures S8 and S9,  
+Supporting Information). The extracted HOMO for p-type PBBTL 
+and LUMO for n-type BBL are −5.21 eV and −4.30 eV (Figure 2b-c 
+and Figure S10, Supporting Information), respectively, which  
+is reasonable for this BHJ material to achieve ambipolarity with 
+the ability to avoid side reactions with water and oxygen and 
+self-doping behavior.[28] The CV measurements of PBBTL:BBL 
+hybrid film in 0.1 m aqueous NaCl solution (Figure 2d) also pre-
+sent ambipolar features with good stability during 20 charging 
+and discharging cycles, indicative of reversible electrochemical 
+redox reactions in aqueous environment.
+X-ray photoelectron spectroscopy (XPS) was employed to verify 
+the presence and distribution of both PBBTL and BBL phases 
+in the bulk film. For the blend PBBTL:BBL (2:1 and 3:1) films, 
+the N (1s) spectra can be deconvoluted into 2 sets of peaks, each 
+corresponding to their constituents (Figure 2e and Figure S11, 
+Supporting Information). The compositions for the individual 
+sulfur-rich PBBTL and sulfur-deficient BBL polymers are close 
+to the theoretical chemical formulae (Figure S11 and Table S2,  
+Supporting Information). We further employed depth profiling 
+XPS to determine the depth composition of the BHJ blend 
+films based on the change in S/O atomic ratios (Figures S12  
+and S13, Table S3, Supporting Information). In the blend 
+films, more n-type BBL phase was found at the surface as well 
+as near the substrate. Both PBBTL and BBL were found to be 
+distributed evenly in the bulk film (Figure S12, Supporting 
+Information). We further evaluated the molecular packing of 
+PBBTL:BBL films using grazing-incidence wide-angle X-ray 
+scattering (GIWAXS) (Figure  2f,g). The pristine PBBTL film 
+showed largely face-on packing at qz  = 1.87 Å−1 (d-spacing  
+= 3.36 Å) with a broad distribution of molecular orientations 
+(i.e., qz  = 1.02 Å−1, qxy  = 1.02 Å−1, and qxy  = 1.86 Å−1, respec-
+tively). The pristine BBL film showed a predominant edge-on 
+orientation, having a strong π–π stacking peak at qxy = 1.80 Å−1  
+(d-spacing = 3.49 Å) and a strong lamellar peak at qz = 0.75 Å−1  
+(d-spacing = 8.37 Å) with a broad face-on diffraction centered 
+at qz  = 1.71 Å−1 (d-spacing = 3.67 Å), in line with previous 
+reports.[2,19,38] For the blend PBBTL:BBL (3:1), a lamellar diffrac-
+tion peak arises at qz = 0.91 Å−1 (d-spacing = 6.90 Å) and the 
+diffraction around qxy = 1.00 Å−1 (d-spacing = 6.28 Å) abate, with 
+strong two π–π stacking peak at qz = 1.85 Å−1(d-spacing = 3.39 Å)  
+and qxy = 1.86 Å−1 (d-spacing = 3.38 Å), respectively. The reten-
+tion of the q-spacings associated with the lamellar stacks of the 
+individual species suggests that PBBTL and BBL form relatively 
+pure nanosized domains whose stacking is unchanged from 
+the neat constituents (Figure 2h). This formation of non-inter-
+fering crystallites enables efficient transport for both holes and 
+electrons in the BHJ structure. The atomic force microscopy 
+images, which showed granular morphology and no distinct 
+phase segregation (Figure S14, Supporting Information), fur-
+ther indicate relatively uniform distribution between these two 
+polymeric phases.
+The typical transfer and output characteristics operated 
+as either p- or n-channel of the BHJ OECTs are presented in 
+Figure 3a,b and Figure S15 (Supporting Information). The 
+PBBTL:BBL-based BHJ OECT presents good electrochemical 
+doping as both p- and n-channels separately. When the channel 
+was used as p-type transistor (upon application of a constant 
+source–drain bias of VDS = −0.3 V), a relatively high drain cur-
+rent was observed at low VGS, which is mainly attributed to the 
+n-doping of BBL component. This is because, at VDS = −0.3 and 
+VGS  = 0V, there exists a potential between gate and drain 
+electrodes of VGD = 0.3 V (which is larger than the threshold 
+Adv. Mater. 2022, 34, 2206118
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (5 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+voltage for electron accumulation of VT,n = 0.26 V, Figure S16,  
+Supporting Information) and VDS = −0.3 V, as a result, Na+ ions 
+from electrolyte was injected into the channel (near the drain 
+electrode) and thus doping the BBL phase (leading to elec-
+tron accumulated near the drain electrode). As the gate bias 
+increased (i.e., VGS increased from 0 to −0.3 V), anions (Cl−) 
+from the electrolyte were injected into the heterojunc-
+tion channel, starting the electrochemical doping of PBBTL  
+component, allowing hole accumulation near the source ter-
+minal. Further increasing the gate bias (at VGS − VDS < VT,p), 
+VGS and VGD both became negative, anions (Cl−) from the elec-
+trolyte were injected into the whole heterojunction channel, 
+leading to the hole accumulation in the whole bulk channel 
+and hence increased source–drain current (Figure  3b). This 
+transfer characteristic behavior indicates that both electrons 
+and holes coexist simultaneously in the heterojunction channel 
+Adv. Mater. 2022, 34, 2206118
+Figure 2.  a) Molecular structure of PBBTL and BBL, and a schematic presenting the blended PBBTL:BBL film. b) UV–vis spectra of PBBTL, BBL, and 
+the BHJ (at different ratios of PBBTL:BBL) solid films. c) Schematic showing the energy level of the BHJ.[28] d) CV measurements of PBBTL:BBL (3:1) 
+hybrid film operated in 0.1 m aqueous NaCl solution. e)X-ray photoelectron spectroscopy (XPS) surface profile of PBBTL, BBL, and the BHJ solid films. 
+f) GIWAXS out-of-plane and in-plane line cut of the PBBTL, BBL, and the BHJ solid films, and g) the associated GIWAXS patterns of PBBTL, PBBTL:BBL, 
+and BBL films. h) Schematic representation of the molecular packing of PBBTL, BBL, and BHJ films for hole or electron transport.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (6 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+at low gate bias. The formation of non-interfering PBBTL and 
+BBL π–π stacking molecular packing allows efficient holes and  
+electrons transport. Similarly, as the n-type channel is formed 
+(upon application of a constant source–drain bias of VDS = 0.3 V),  
+similar electrochemical doping behaviors were seen (Figure 3b).
+The detailed OECT performance at various ratios of 
+PBBTL:BBL are summarized in Figure 3c, Figure S15 and Table S4 
+(Supporting Information). As shown earlier, the pristine PBBTL 
+devices show p-type transistor behavior with normalized gm and 
+µC* values of 0.58 ± 0.17 S cm−1 and 4.82 ± 1.63 F cm−1 V−1 s−1), 
+respectively. The pristine BBL devices were found to out-
+perform the p-type PBBTL-based devices, exhibiting great 
+n-type performance with normalized gm and µC* values of  
+2.98 ± 0.94 S cm−1 and 6.02 ± 1.96 F cm−1 V−1 s−1) respectively 
+(Figure S8, Supporting Information). In general, when the 
+p-type PBBTL polymer was blended at low BBL concentration 
+(for example 10 wt% BBL), the BHJ OECTs exhibited superior 
+p-type behavior, with normalized gm values of 0.55 ± 0.19 and  
+Adv. Mater. 2022, 34, 2206118
+Figure 3.  Bulk-heterojunction OECTs. a) The output transfer curves and b) the associated transconductance of the BHJ OECTs (PBBT:BBL = 3:1), oper-
+ated in 0.1 m aqueous NaCl electrolyte, with a channel width/length = 100 µm/5 µm, thickness d = 102 nm. Note that the source electrode is grounded 
+for all the measurements. c) The µC* value and peak gm value at different BBL content. d) Drain-current transient response of this BHJ OECT, with 
+VG varying from 0 to |0.6| V and VD = |0.3| V. e) Pulse stability of the BHJ OECT. f,g) In situ spectroelectrochemistry measurements of PBBTL:BBL (3:1) 
+composite film under a progressive increment of the bias from 0 to 0.8 V at a step of 0.1 V (f) and from 0 to −0.6 V at a step of −0.1 V (g), operated in 
+0.1 m NaCl aqueous electrolyte. h) HAADF-STEM images reveal the internal structures of pristine PBBTL, hybrid PBBTL:BBL, and pristine BBL films.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (7 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+0.16 ± 0.02 S  cm−1, and µC* values of 3.04 ± 1.25 and  
+0.59 ± 0.06 F cm−1 V−1 s−1, for p-type and n-type, respectively. Upon 
+further increasing of the BBL content, the p-type OECT perfor-
+mance reduced gradually – reaching a normalized gm value of 
+0.05 ± 0.03 S cm−1 and µC* value of 0.36 ± 0.16 F cm−1 V−1 s−1 with 
+the higher n-type performance (having a normalized gm value 
+of 1.54 ± 0.41 S cm−1 and µC* value of 5.01 ± 0.88 F cm−1 V−1 s−1  
+at the content of 66.6 wt% of BBL. Upon blending at the 
+ratio of PBBTL:BBL = 3:1, we note that the ambipolar OECTs 
+exhibit comparable normalized gm values of 0.41 ± 0.17 and  
+0.43 ± 0.24 S  cm−1 and µC* values of 2.72 ± 1.04 and  
+1.36 ± 0.81 F cm−1 V−1 s−1 for p-type and n-type, respectively, con-
+sistent with the formation of optimized phase separation and 
+morphology for both ionic and electronic transport. The bal-
+anced drain current and µC* values for p- and n-type in this het-
+erojunction OECT, therefore, make it a promising material for 
+ambipolar inverters or comprehensive logic circuits. The C* of 
+the optimized blend films was also determined independently 
+using EIS (Figures S17–S19, Supporting Information), where 
+the maximum C* values for n-type and p-type were 168 F cm−3  
+and 124 F cm−3, respectively, indicative of good storage capacity 
+for both cations and anions. The hole and electron mobility for 
+the BHJ OECTs (PBBTL:BBL = 3:1) were then determined to 
+be 0.022 ± 0.008 and 0.008 ± 0.005 cm2 V−1 s−1, respectively, 
+using equation  (1). With higher BBL content of 33.3 wt%  
+(PBBTL:BLL = 2:1), the obtained n-type C* value increased fur-
+ther to 222 F cm−3 but with reduced p-type C* value of 103 F cm−3, 
+which implied that the anions or cation storage capacity of the 
+BHJ can be tuned by the component of corresponding p- and 
+n-type polymers.
+Furthermore, the OECTs using the optimized blends of 
+PBBTL:BBL = 3:1 showed good transient speeds of 3.05 ms and 
+1.72 ms as p-type and n-type channels, respectively (Figure 3d). 
+As presented in Figure  3e, no significant drain current deg-
+radation was seen with the channel operated as either p- or 
+n-channel, in which the p- and n-channel maintained ≈90% 
+and 100% of their initially doped drain current after 5000 cycles 
+of pulse measurement, indicating a good reversible electro-
+chemical redox process.
+The electrochemical doping process either doped with cat-
+ions or anions was further explained by the absorption spec-
+trum changes under progressive increment of bias (either 
+from 0 to 0.8 V or from 0 to −0.6 V, at a step of −0.025 V, see 
+Figure  3f,g and Figure S18, Supporting Information), using 
+in situ UV–vis spectrum. A similar electrochemical doping 
+process was observed when this hybrid film was doped with 
+Cl− anions compared with pristine PBBTL film (Figure S6, 
+Supporting Information). The result implies that the incorpo-
+ration of BBL polymer did not impede the p-doping behavior 
+of PBBTL polymer. Meanwhile, progressive increment of the 
+bias from 0 to −0.6 V (Figure 3g and Figure S20, Supporting 
+Information), cations (Na+) from the electrolyte were injected 
+into the BBL film, and the transition peaks centered at 400 and 
+578 nm gradually disappeared while two new broad absorption 
+features emerged ≈720 nm and 815 nm (ascribed to polaronic 
+transition), indicating that the BBL film was switched from 
+neutral to reduced state (BBL−) and was to undergo charge 
+accumulation. A similar n-doping process was also observed 
+in the pristine BBL film (Figure S21, Supporting Information). 
+The recorded in situ UV–vis spectrum results imply that the 
+donor–acceptor polymer BHJ can be effectively p- or n-doped 
+by corresponding ions. The interesting characteristics of the 
+BHJ PBBTL:BBL films, motivate further investigation into its 
+nanostructure since the nanostructure of the active channel is 
+obviously crucial for the ion–electron transport and hence the 
+device performance.[9] High-angle annular dark-field scanning 
+transmission electron microscopy (HAADF-STEM) images 
+reveal a porous fibrillar network for pristine PBBTL, BBL, and 
+BHJ PBBTL:BBL films (Figure  3h). Such porous fibrillar net-
+work allows rapid penetration and transport of both cations and 
+anions in the bulk film and thus enabling fast transient speed 
+and good electrochemical doping efficiency. It further empha-
+sizes the importance of structure (e.g., porous structures) for 
+ion penetration and transport in the bulk channel, and thus the 
+device performance.
+Next, we investigated the feasibility of using this PBBTL:BBL 
+(3:1) BHJ as both pull-up and pull-down channels in a com-
+plementary logic circuit (Figure 4a). As presented earlier in 
+Figure 3b, the observed comparable drain current in the p- and 
+n-type channels indicates balanced electron and hole transport 
+to ensure high-performance logic circuits. The voltage transfer 
+characteristics of the inverter were presented in Figure  4b–e, 
+yielding a high voltage gain value of 42 V V−1 (at VDD = −0.6 V) 
+and 31 V V−1 (at VDD = 0.6 V). It is worth noting that this ambi-
+polar inverter is capable to process three bits of information  
+(“0”, “+1”, and “−1”), due to the ambipolar feature of our BHJ 
+OECTs (Figure 3). We further developed a NAND gate logic cir-
+cuit (Figure 4f) employing this BHJ channel which exhibited good 
+switching behavior (Figure  4g). Owing to the single-processing 
+feature of this BHJ blend, the NAND devices can also be prepared 
+on the same substrate. Overall, the successful demonstration of 
+the inverter and NAND gate logic circuits using our BHJ OECTs 
+presents great potential to reduce the fabrication complexity and 
+manufacturing costs for future industrial applications.
+2.3. Bulk-Heterojunction OECTs Complementary  
+Inverter as Voltage Amplifier
+Low-cost, high amplification, and low power consumption are 
+all crucial features of next-generation biomedical devices. The 
+OECT inverter possesses high-voltage amplification capability, 
+thus it can monitor and amplify electrophysiological signals 
+even at very low input potential while maintaining low power 
+consumption due to its low operating voltage (<1 V), making it 
+ideal for electrophysiological signal processing (i.e., signal detec-
+tion or amplification). While such signal amplification can also 
+be achieved using traditional load resistors to provide voltage-
+to-voltage amplification, they typically exhibit higher power dis-
+sipation or generate additional thermal noise. The introduction 
+of BHJ OECTs complementary inverter as voltage amplifiers can 
+minimize these issues and provide a simpler fabrication pro-
+cess. We, therefore, explore the feasibility of using this inverter 
+to amplify electrooculography (EOG) signals. Two 3M elec-
+trodes were attached on the left and right sides of the eye—one  
+electrode was connected to the Ag/AgCl gate of inverter and 
+the other was connected to a voltage supply (Figure 5a,c). The 
+potential variations (VEOG) produced by eye movements along 
+Adv. Mater. 2022, 34, 2206118
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (8 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2206118
+Figure 4.  Ambipolar inverter consisting of two heterojunctions OECTs. a) Device configuration of a complementary logic circuit based on the PBBTL:BBL 
+heterojunction OECTs. b,d) A representative voltage transfer curve of the complementary inverter at various supply voltages, and c,e) the associated 
+voltage gains. f) NAND gate consisting of the PBBTL:BBL (3:1) heterojunction OECTs. g) Input and output given by the NAND gate showing “0” and 
+“1” states.
+Figure 5.  EOG signals monitored by BHJ complementary circuits. a) The operational principle of the hybrid circuit in EOG signals monitoring during 
+left-right eye movement, and b) the associated EOG signals obtained using the BHJ OECTs complementary inverter . c) Up-down eye movements, and 
+d) the associated EOG signals obtained using the BHJ OECT complementary inverter.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (9 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2206118
+horizontal (left-to-right) or vertical (up-to-down) directions are 
+weak (in the millivolt range, ≈1.5 mV).[39] The EOG signals 
+were recorded at an offset bias where the peak gain occurs, 
+with a constant VDD of −0.6 V. As the eye moves from left to 
+right, the inverter picks up an output voltage change of ≈80mV 
+(Figure 5b). It is worth mentioning that this BHJ inverter can 
+collect signals at different blink speeds, up to 1 Hz (Figure S22, 
+Supporting Information). We also tested the corresponding 
+signal changes during vertical eye movement, also showing an 
+amplified voltage change of ≈80 mV (Figure  5d). Overall, this 
+BHJ complementary inverter shows outstanding performance 
+in tracking eye movement, further highlighting its great poten-
+tial as a signal amplifier in wearable integrated systems.
+3. Conclusion
+All-polymer BHJ OECTs with ambipolar property were dem-
+onstrated, and it provides a facile strategy to simplify the fab-
+rication process and reduce the manufacturing cost while 
+simultaneously obtaining high performing logic circuits, 
+including inverter and NAND gates. This was enabled by the 
+development of a new ladder-type, side chain free p-type conju-
+gated polymer. The all ladder-type polymer BHJ also proved that 
+side chains are not necessary for good ion transport. Instead, 
+the polymer nanostructures play a critical role in the ion pen-
+etration and transportation and thus the device performance. 
+Our work opens a new approach in designing new materials for 
+OECTs and will contribute to the development of heterojunction 
+ambipolar OECTs toward high performing logic circuits.
+4. Experimental Section
+Material Preparation: The p-type ladder conjugated polymer, 
+6H-pyrrolo[3,2-b:4,5-b’]bis[1,4]benzothiazine 
+ladder 
+(PTBBL), 
+was 
+synthesized following the previous report.[29] Sodium chloride (NaCl) 
+and methanesulfonic acid (MSA) were all obtained from Sigma-Aldrich. 
+The dichloro-p-cyclophane (DPX-C) was purchased from Specialty 
+Coating Systems, Inc. The p-Si/SiO2 (300 nm) wafer was provided by 
+Maideli Advanced Material Co., Ltd.
+OECTs and Inverter Fabrications: Devices were fabricated using a 
+previously described Parylene-C peel-off procedure.[9] Source/drain 
+electrodes were photolithographically patterned through a lift-off 
+process. AZ5214 photoresist was spin-coated on the pre-cleaned 
+substrate at 4000 rpm, followed by softbaked at 110 °C for 180 s before 
+exposed to UV light (405 nm, 1.2 s) using SUSS MJB4 Mask Aligner 
+under a shadow mask, after that, baked at 110 °C for 180 s before flood 
+expored of 15 s, finally developed by AZ developer. A thin adhesion layer 
+of titanium (5 nm) followed by one layer of Au (50 nm) layer was then 
+deposited on the substrate via e-beam evaporation, and subsequently 
+immersed the substrates in acetone with sonication for 5 min. Next, a 
+layer of 2 µm-thick Parylene C was deposited on the substrates acted 
+as an insulating layer to avoid direct contact between electrolyte and 
+metal electrodes using SCS Labcoater. At the same time, to improve 
+the adhesion between Parylene C and the substrate, 3 droplets 
+3-(trimethoxysilyl)propyl methacrylate (A-174 silane) were added to the 
+evaporation chamber. To facilitate the subsequently peeling process, 
+an anti-adhesion layer of dilute cleaner (Micro-90, 10 wt% in deionized 
+(DI)  water) was spin-coated on the substrate before depositing the 
+second Parylene-C layer (≈2.5 µm, acting as a sacrificial layer). A  
+12 µm-thick AZ P4620 photoresist was subsequently spin-coated onto 
+the substrate, soft-baked at 110 °C for 180 s, exposed using SUSS MJB4 
+mask aligner, and developed by AZ developer. The patterned channel 
+area and contact pads were etched via reactive ion etching (Oxford 
+Plasmalab80) at 50 sccm O2, 10 sccm CHF3, 160 W operating conditions. 
+PBBTL and BBL solutions were prepared as followed: different ratios of 
+PBBTL and BBL polymers were first dissolved in MSA, and stirred for 3 h 
+at 60 °C. The mixed solutions were spin-coated on top of the patterned 
+substrates to form the channels, followed by immersion in IPA solution 
+for 20 min to remove the residual MSA solvent. The second sacrificed 
+Parylene-C layer was peeled off, after that, the devices were transferred 
+into glove box and annealed at 200  °C for 1 h. The devices used for 
+ambipolar OECTs, inverter, NAND, and EOG measurements have a 
+channel width/length = 100 µm/5 µm, thickness d = 106 ± 14 nm unless 
+otherwise specified.
+Electrical characterization: The I–V characteristics of the films and all 
+the OECT device characteristics including output and transfer curves 
+and pulse measurement were measured under ambient conditions 
+using Keysight precision source/measure unit (B2912A). The threshold 
+voltage and µC* product of all OECTs were extracted from a fit of the 
+linear portion of the 
+DI  vs VG curves.[40,41]
+Materials Characterization: The thickness of the polymer films was 
+characterized with Alpha-Step profilemeter (KLA-Tencor). Absorption 
+spectra of the polymer films (≈100 nm) on ITO glass substrate were 
+recorded using UV–VIS spectrophotometer (UV-3600, Shimadzu).  
+A 2 nm Au layer was deposited on ITO by thermal evaporator at 0.1 A s−1 
+to improve the adhesion of films before depositing the polymer films. 
+In situ spectraelectrochemistry measurement were subsequently carried 
+out under a constant offset bias range from 0 V to −0.6 V for BBL, 0 
+to 0.8 V for PBBTL, and 0 to −0.6 V or 0 to 0.8 V for PBBTL:BBL films 
+vs Ag/AgCl electrode, operated in 0.1 m NaCl aqueous electrolyte. The 
+absorption spectra were recorded over the wavelength range from 300 to 
+900 nm as films were biased.
+Cyclic voltammetry (CV) and electrochemical impedance spectroscopy 
+(EIS) were carried out using Metrohm Autolab potentiostat with a three-
+terminal setup (composed of a working electrode, a Pt counter electrode, 
+and an Ag/AgCl reference electrode), operated in 0.1 m NaCl aqueous 
+electrolyte. CV measurement was carried out between 0 V to 0.8 V for 
+PBBTL and −0.6 V to 0.8 V for PBBTL:BBL vs AgAgCl electrode. For the 
+CV measurement, the films were deposited on ITO substrates used as 
+working electrodes. The volumetric capacitance of PBBTL, BBL, and the 
+PBBTL:BBL films were extracted from EIS. For the EIS measurement, 
+the films were deposited on a pre-patterned Ti/Au electrode, with 2 
+µm-thick Parylene C as the insulating layer to prevent direct exposure 
+between electrolyte and metal electrode, the preparation procedure 
+was as same as described above for OECTs fabrication, and acted as 
+the working electrode. EIS was performed over a frequency range from 
+104 Hz and 10−1 Hz, with a 10 mV single sinusoidal signal over a DC 
+offset bias between 0 to 0.8 V for PBBTL, 0 to 0.6 V for BBL, and −0.6 to  
+0.8 V for BHJ films. The obtained impedance data were fit to an 
+equivalent circuit of Rs(Rp||C), where Rs is the electrolyte resistance,  
+Rp is the charge transfer resistance, and C is the capacitance. The 
+volumetric capacitance C*  = C/V), where V is the volume of the 
+deposited film.
+X-ray 
+Photoelectron 
+Spectroscopy 
+(XPS): 
+X-ray 
+photoelectron 
+spectroscopy (XPS) was employed to reveal the presence and 
+distribution of both PBBTL and BBL chains in the bulk film. A 2-nm Au 
+layer was deposited on p-Si/SiO2 substrates to improve the adhesion 
+of films before depositing the polymer films. For the blend PBBTL:BBL 
+film, the N (1s) spectra could be deconvoluted into 2 sets of peaks, 
+each corresponding to their constituents. The peak area from the peak-
+fitted N (1s) spectra was summed for the respective components and 
+normalized based on the number of N atoms in each compound, hence, 
+the normalized peak area could represent the amount of the component 
+in the blend. The fitting was used as the basis to determine the ratio of 
+both components. The fitting was done by keeping constraints for the 
+peaks from the same set. The HOMO of PBBTL and BBL was determined 
+by ultraviolet photoelectron spectroscopy (UPS) measurement. The 
+LUMO of BBL can be approximated by 
+0.3 eV
+LUMO
+HOMO
+g
+opt
+E
+E
+E
+=
++
++
+, 
+where 
+g
+opt
+E
+ is the optical bandgap determined by the onset of the 
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (10 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2206118
+absorption peak from a film-state UV–Vis spectra and 0.3 eV is the 
+exciton binding energy.[42]
+Grazing-Incidence Wide-Angle X-ray Diffraction (GIWAXS): GIWAXS 
+was performed on the Complex Materials Scatterign (CMS) beamline 
+of the National Synchrotron Light Source II (NSLS-II), Brookhaven 
+National Lab. An X-ray beam with an energy of 13.5 keV shone upon 
+the samples with an incidence angle of 0.1°, to explore the molecular 
+packing of PBBTL, BBL, and the PBBTL:BBL films. A custom-made 
+Pilatus-800K detector was placed at distance of 257 mm from the 
+sample to capture 2D-GIWAXS images with an exposure time of 10 s. All 
+2D-GIWAXS images had been background subtracted. A 50 nm Au layer 
+was deposited on Si/SiO2 by thermal evaporator at 0.1 A s−1 to improve 
+the adhesion of the films before depositing the polymers.
+Scanning Transmission Electron Microscopy (STEM): 10 mg  mL−1 
+PBBTL:BBL dissolved in methanesulfonic acid was spin-coated onto a 
+pre-cleaned Si wafer. The Si wafer was immersed in DI water and the 
+films were exfoliated from the Si wafer substrate. TEM copper grid 
+coated with lacey carbon membrane was used to scoop the floating film. 
+The films on TEM copper grids were annealed at 100 °C on a hotplate 
+to remove the residual water. The BBL films on TEM copper grids were 
+brought into a N2 glovebox (O2 and H2O <1 ppm) and further annealed 
+at 200 °C for 1 h. The annealed films were then allowed to cool down to 
+room temperature. The TEM study of the as-obtained films on a copper 
+grid was conducted on an FEI Titan 80/300 (S)TEM with an acceleration 
+voltage of 200 kV. The film was stable under electron beams without any 
+visible degradation of crystalline structures. Atomic force microscopy 
+(Cypher S) was employed to check the morphology of the polymer films 
+on Si/SiO2 substrates in tapping mode.
+Electrooculography (EOG) Monitoring: For the EOG monitoring of eye 
+motion, a 33-year-old healthy male participated in the experiments. The BHJ 
+ambipolar inverter was used as an analog voltage preamplifier for recording 
+the EOG signals. In brief, two adhesive 3M dot electrodes (Red Dot, Model 
+2239) were either placed on the left and right sides or up and down sides 
+of the eye, with one end connected to the Ag/AgCl gate of inverter and 
+the other end connected to a voltage supply (Agilent B1500). Note that 
+the BHJ OECT device was located near the human subject and measured 
+in a probe station during the EOG testing. Before the experiments, the 
+participant was trained on a protocol that included horizontal and vertical 
+eye movements. All EOG measurements were approved by the Institutional 
+Review Board (approval number: IRB-2022-102), and informed written 
+consent was obtained prior to subject participation.
+Statistical Analysis: Data presented were representative of at least  
+3 independent experiments, and quantitative results were expressed as 
+mean ± standard deviation (SD) unless otherwise specified.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+W.L.L. acknowledges funding support from Ministry of Education (MOE) 
+under AcRF Tier 2 grant (MOE2019-T2-2-106) and National Robotics 
+Programme (W1925d0106). The authors would like to acknowledge the 
+Facility for Analysis, Characterization, Testing and Simulation (FACTS), 
+Nanyang Technological University, Singapore, for use of their XPS 
+facility and the School of Physical and Mathematical Sciences, Nanyang 
+Technological University, Singapore, for use of their AFM facility. The 
+authors thank Dr. Esther Tsai and Dr. Ruipeng Li for help with X-ray 
+scattering measurements, which were conducted at the Center for 
+Functional Nanomaterials (CFN) and the Complex Materials Scattering 
+(CMS) beamline of the National Synchrotron Light Source II (NSLS-II), 
+which both are U.S. DOE Office of Science Facilities, at Brookhaven 
+National Laboratory under Contract No. DE-SC0012704.
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request.
+Keywords
+balanced charge transport, heterojunctions, ladder-type polymers, 
+organic electrochemical transistors
+Received: July 5, 2022
+Revised: August 19, 2022
+Published online: September 13, 2022
+[1]	 C.  Cea, G. D.  Spyropoulos, P.  Jastrzebska-Perfect, J. J.  Ferrero,  
+J. N. Gelinas, D. Khodagholy, Nat. Mater. 2020, 19, 679.
+[2]	 C.-Y.  Yang, M.-A.  Stoeckel, T.-P.  Ruoko, H.-Y.  Wu, X.  Liu,  
+N. B.  Kolhe, Z.  Wu, Y.  Puttisong, C.  Musumeci, M.  Massetti, 
+H.  Sun, K.  Xu, D.  Tu, W. M.  Chen, H. Y.  Woo, M.  Fahlman,  
+S. A. Jenekhe, M. Berggren, S. Fabiano, Nat. Commun. 2021, 12, 2354.
+[3]	 P. Andersson Ersman, R. Lassnig, J. Strandberg, D. Tu, V. Keshmiri, 
+R.  Forchheimer, S.  Fabiano, G.  Gustafsson, M.  Berggren, Nat. 
+Commun. 2019, 10, 5053.
+[4]	 B. D.  Paulsen, K.  Tybrandt, E.  Stavrinidou, J.  Rivnay, Nat. Mater. 
+2020, 19, 13.
+[5]	 X.  Ji, B. D.  Paulsen, G. K. K.  Chik, R.  Wu, Y.  Yin, P. K. L.  Chan, 
+J. Rivnay, Nat. Commun. 2021, 12, 2480.
+[6]	 D. Moia, A. Giovannitti, A. A. Szumska, I. P. Maria, E. Rezasoltani, 
+M.  Sachs, M.  Schnurr, P. R. F.  Barnes, I.  McCulloch, J.  Nelson, 
+Energy Environ. Sci. 2019, 12, 1349.
+[7]	 J.  Rivnay, S.  Inal, A.  Salleo, R. M.  Owens, M.  Berggren,  
+G. G. Malliaras, Nat. Rev. Mater. 2018, 3, 17086.
+[8]	 S. Chen, A. Surendran, X. Wu, W. L. Leong, Adv. Funct. Mater. 2020, 
+30, 2006186.
+[9]	 X.  Wu, M.  Stephen, T. C.  Hidalgo, T.  Salim, J.  Surgailis, 
+A. Surendran, X. Su, T. Li, S. Inal, W. L. Leong, Adv. Funct. Mater. 
+2021, 32, 2108510.
+[10]	 M.  Moser, T. C.  Hidalgo, J.  Surgailis, J.  Gladisch, S.  Ghosh, 
+R.  Sheelamanthula, Q.  Thiburce, A.  Giovannitti, A.  Salleo, 
+N.  Gasparini, A.  Wadsworth, I.  Zozoulenko, M.  Berggren, 
+E. Stavrinidou, S. Inal, I. McCulloch, Adv. Mater. 2020, 32, 2002748.
+[11]	 H. Sun, M. Vagin, S. Wang, X. Crispin, R. Forchheimer, M. Berggren, 
+S. Fabiano, Adv. Mater. 2018, 30, 1704916.
+[12]	 C. B. Nielsen, A. Giovannitti, D.-T. Sbircea, E. Bandiello, M. R. Niazi,  
+D. A. Hanifi, M. Sessolo, A. Amassian, G. G. Malliaras, J. Rivnay, 
+I. McCulloch, J. Am. Chem. Soc. 2016, 138, 10252.
+[13]	 A. T.  Lill, D. X.  Cao, M.  Schrock, J.  Vollbrecht, J.  Huang,  
+T.  Nguyen-Dang, V. V.  Brus, B.  Yurash, D.  Leifert, G. C.  Bazan, 
+T.-Q. Nguyen, Adv. Mater. 2020, 32, 1908120.
+[14]	 X.  Wu, Q.  Liu, A.  Surendran, S. E.  Bottle, P.  Sonar, W. L.  Leong,  
+Adv. Electron. Mater. 2021, 7, 2000701.
+[15]	 A.  Giovannitti, D.-T.  Sbircea, S.  Inal, C. B.  Nielsen, E.  Bandiello,  
+D. A. Hanifi, M. Sessolo, G. G. Malliaras, I. McCulloch, J. Rivnay, 
+Proc. Natl. Acad. Sci. USA 2016, 113, 12017.
+[16]	 C.-Y.  Yang, D.  Tu, T.-P.  Ruoko, J. Y.  Gerasimov, H.-Y.  Wu,  
+P. C.  Harikesh, M.  Massetti, M.-A.  Stoeckel, R.  Kroon, C.  Müller, 
+M. Berggren, S. Fabiano, Adv. Electron. Mater. 2021, 8, 2100907.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2206118  (11 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2206118
+[17]	 P.  Romele, P.  Gkoupidenis, D. A.  Koutsouras, K.  Lieberth,  
+Z. M.  Kovács-Vajna, P. W. M.  Blom, F.  Torricelli, Nat. Commun. 
+2020, 11, 3743.
+[18]	 R. B. Rashid, W. Du, S. Griggs, I. P. Maria, I. McCulloch, J. Rivnay, 
+Sci. Adv. 2021, 7, 37.
+[19]	 H.-Y.  Wu, C.-Y.  Yang, Q.  Li, N. B.  Kolhe, X.  Strakosas,  
+M.-A.  Stoeckel, Z.  Wu, W.  Jin, M.  Savvakis, R.  Kroon, D.  Tu,  
+H. Y. Woo, M. Berggren, S. A. Jenekhe, S. Fabiano, Adv. Mater. 2022, 
+34, 2106235.
+[20]	 J.  Surgailis, A.  Savva, V.  Druet, B. D.  Paulsen, R.  Wu,  
+A. Hamidi-Sakr, D. Ohayon, G. Nikiforidis, X. Chen, I. McCulloch, 
+J. Rivnay, S. Inal, Adv. Funct. Mater. 2021, 31, 2010165.
+[21]	 Y.  Zhang, E. R. W.  van  Doremaele, G.  Ye, T.  Stevens, J.  Song,  
+R. C. Chiechi, Y. van de Burgt, Adv. Mater. 2022, 34, 2200393.
+[22]	 J. J. Samuel, A. Garudapalli, A. A. Mohapatra, C. Gangadharappa, 
+S. Patil, N. P. B. Aetukuri, Adv. Funct. Mater. 2021, 31, 2102903.
+[23]	 A. J. Heeger, Adv. Mater. 2014, 26, 10.
+[24]	 M. C. Scharber, N. S. Sariciftci, Prog. Polym. Sci. 2013, 38, 1929.
+[25]	 S. H. Park, A. Roy, S. Beaupré, S. Cho, N. Coates, J. S. Moon, D. Moses,  
+M. Leclerc, K. Lee, A. J. Heeger, Nat. Photonics 2009, 3, 297.
+[26]	 G.  Dennler, M. C.  Scharber, C. J.  Brabec, Adv. Mater. 2009, 21, 
+1323.
+[27]	 T. L. D. Tam, M. Lin, S. W. Chien, J. Xu, ACS Macro Lett. 2021, 11, 
+110.
+[28]	 A. Giovannitti, R. B. Rashid, Q. Thiburce, B. D. Paulsen, C. Cendra, 
+K. Thorley, D. Moia, J. T. Mefford, D. Hanifi, D. Weiyuan, M. Moser, 
+A. Salleo, J. Nelson, I. McCulloch, J. Rivnay, Adv. Mater. 2020, 32, 
+1908047.
+[29]	 S. Inal, G. G. Malliaras, J. Rivnay, Nat. Commun. 2017, 8, 1767.
+[30]	 M.  Moser, L. R.  Savagian, A.  Savva, M.  Matta, J. F.  Ponder Jr., 
+T. C.  Hidalgo, D.  Ohayon, R.  Hallani, M.  Reisjalali, A.  Troisi, 
+A. Wadsworth, J. R. Reynolds, S. Inal, I. McCulloch, Chem. Mater. 
+2020, 32, 6618.
+[31]	 S.  Inal, J.  Rivnay, P.  Leleux, M.  Ferro, M.  Ramuz, J. C.  Brendel,  
+M. M. Schmidt, M. Thelakkat, G. G. Malliaras, Adv. Mater. 2014, 26, 
+7450.
+[32]	 Q. Thiburce, A. Giovannitti, I. McCulloch, A. J. Campbell, Nano Lett. 
+2019, 19, 1712.
+[33]	 Y.  Wang, E.  Zeglio, H.  Liao, J.  Xu, F.  Liu, Z.  Li, I. P.  Maria,  
+D. Mawad, A. Herland, I. McCulloch, W. Yue, Chem. Mater. 2019, 
+31, 9797.
+[34]	 L. Q. Flagg, C. G. Bischak, J. W. Onorato, R. B. Rashid, C. K. Luscombe,  
+D. S. Ginger, J. Am. Chem. Soc. 2019, 141, 4345.
+[35]	 L. R.  Savagian, A. M.  Österholm, J. F.  Ponder Jr., K. J.  Barth, 
+J. Rivnay, J. R. Reynolds, Adv. Mater. 2018, 30, 1804647.
+[36]	 C. G.  Bischak, L. Q.  Flagg, D. S.  Ginger, Adv. Mater. 2020, 32, 
+2002610.
+[37]	 S. E.  Chen, L. Q.  Flagg, J. W.  Onorato, L. J.  Richter, J.  Guo,  
+C. K. Luscombe, D. S. Ginger, J. Mater. Chem. A 2022, 10, 10738.
+[38]	 T. L. D. Tam, M. Lin, A. D. Handoko, T. T. Lin, J. Xu, J. Mater. Chem. A  
+2021, 9, 11787.
+[39]	 Y. Yao, W. Huang, J. Chen, G. Wang, H. Chen, X. Zhuang, Y. Ying, 
+J. Ping, T. J. Marks, A. Facchetti, Proc. Natl. Acad. Sci. USA 2021, 118, 
+e2111790118.
+[40]	 J.  Rivnay, P.  Leleux, M.  Ferro, M.  Sessolo, A.  Williamson,  
+D. A.  Koutsouras, D.  Khodagholy, M.  Ramuz, X.  Strakosas,  
+R. M. Owens, C. Benar, J.-M. Badier, C. Bernard, G. G. Malliaras, 
+Sci. Adv. 2015, 1, e1400251.
+[41]	 C. Cendra, A. Giovannitti, A. Savva, V. Venkatraman, I. McCulloch, 
+A. Salleo, S. Inal, J. Rivnay, Adv. Funct. Mater. 2019, 29, 1807034.
+[42]	 S. Kraner, R. Scholz, F. Plasser, C. Koerner, K. Leo, J. Chem. Phys. 
+2015, 143, 244905.
+ 15214095, 2022, 42, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202206118 by Argonne National Laboratory, Wiley Online Library on [11/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,2170 @@
+{
+   "s41598-024-69120-0_fig1.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig1_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig1.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "Pictures of used plants in nanomaterials.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig1.jpg",
+      "master_images": [
+         {
+            "classification": "microscopy",
+            "confidence": 0.0924,
+            "height": 816,
+            "width": 609,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 816
+               },
+               {
+                  "x": 609,
+                  "y": 0
+               },
+               {
+                  "x": 609,
+                  "y": 816
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig2.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig2_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig2.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "Powder of all the plant material.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig2.jpg",
+      "master_images": [
+         {
+            "classification": "microscopy",
+            "confidence": 0.1608,
+            "height": 96.3329982503255,
+            "width": 545.5961084365845,
+            "geometry": [
+               {
+                  "x": 67,
+                  "y": 121
+               },
+               {
+                  "x": 67,
+                  "y": 217
+               },
+               {
+                  "x": 613,
+                  "y": 121
+               },
+               {
+                  "x": 613,
+                  "y": 217
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 119,
+                     "y": 238
+                  },
+                  {
+                     "x": 119,
+                     "y": 248
+                  },
+                  {
+                     "x": 135,
+                     "y": 238
+                  },
+                  {
+                     "x": 135,
+                     "y": 248
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig3.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig3_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig3.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "Nanoparticles made from all the plant material.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig3.jpg",
+      "master_images": [
+         {
+            "classification": "diffraction",
+            "confidence": 0.1617,
+            "height": 289,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 289
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 289
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig4.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig4_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig4.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "The UV\u2013visible absorption spectra of the Ag nanoparticles, concentration of Neem (Azadirachta Indica).",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig4.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.1315,
+            "height": 472,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 472
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 472
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig5.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig5_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig5.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "The UV\u2013visible absorption spectra of the Ag nanoparticles, concentration of Mint (Mentha Piperita).",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig5.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.1018,
+            "height": 295,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 295
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 295
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig6.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig6_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig6.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "The UV\u2013visible absorption spectra of the Ag nanoparticles, concentration of Tulsi (Ocimum Tenuiflorum).",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig6.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.0669,
+            "height": 482,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 482
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 482
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig7.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig7_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig7.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "The UV\u2013visible absorption spectra of the Ag nanoparticles, concentration of Bermuda grass (Cynodon Dactylon).",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig7.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.0704,
+            "height": 471,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 471
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 471
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig8.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig8_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig8.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "The UV\u2013visible absorption spectra of the 4-Nitro Aniline and reduced 4-Nitro Aniline.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig8.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 518.5273736317952,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 518
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 518
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 52,
+                     "y": 0
+                  },
+                  {
+                     "x": 52,
+                     "y": 18
+                  },
+                  {
+                     "x": 65,
+                     "y": 0
+                  },
+                  {
+                     "x": 65,
+                     "y": 18
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig9.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig9_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig9.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "TEM of the synthesized AgNPs.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig9.jpg",
+      "master_images": [
+         {
+            "classification": "microscopy",
+            "confidence": 0.1626,
+            "height": 378.9984858953036,
+            "width": 344.3072775485962,
+            "geometry": [
+               {
+                  "x": 340,
+                  "y": 0
+               },
+               {
+                  "x": 340,
+                  "y": 378
+               },
+               {
+                  "x": 684,
+                  "y": 0
+               },
+               {
+                  "x": 684,
+                  "y": 378
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 367,
+                     "y": 12
+                  },
+                  {
+                     "x": 367,
+                     "y": 56
+                  },
+                  {
+                     "x": 415,
+                     "y": 12
+                  },
+                  {
+                     "x": 415,
+                     "y": 56
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 362,
+                           "y": 311
+                        },
+                        {
+                           "x": 362,
+                           "y": 347
+                        },
+                        {
+                           "x": 463,
+                           "y": 347
+                        },
+                        {
+                           "x": 463,
+                           "y": 311
+                        }
+                     ],
+                     "text": "50.0 nm",
+                     "label_confidence": 0.930867075920105,
+                     "box_confidence": 0.9956467747688293,
+                     "nm": 50.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 365,
+                        "y": 350
+                     },
+                     {
+                        "x": 365,
+                        "y": 356
+                     },
+                     {
+                        "x": 427,
+                        "y": 356
+                     },
+                     {
+                        "x": 427,
+                        "y": 350
+                     }
+                  ],
+                  "confidence": 0.9778076410293579,
+                  "length": 61,
+                  "label_line_distance": 848.25
+               }
+            ],
+            "nm_height": 310.6,
+            "nm_width": 282.2,
+            "scale_label": "50.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "microscopy",
+            "confidence": 0.1626,
+            "height": 354.5072628901556,
+            "width": 331.4719169435527,
+            "geometry": [
+               {
+                  "x": 348,
+                  "y": 385
+               },
+               {
+                  "x": 348,
+                  "y": 740
+               },
+               {
+                  "x": 679,
+                  "y": 385
+               },
+               {
+                  "x": 679,
+                  "y": 740
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 352,
+                     "y": 398
+                  },
+                  {
+                     "x": 352,
+                     "y": 439
+                  },
+                  {
+                     "x": 403,
+                     "y": 398
+                  },
+                  {
+                     "x": 403,
+                     "y": 439
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 363,
+                           "y": 681
+                        },
+                        {
+                           "x": 363,
+                           "y": 715
+                        },
+                        {
+                           "x": 446,
+                           "y": 715
+                        },
+                        {
+                           "x": 446,
+                           "y": 681
+                        }
+                     ],
+                     "text": "5.0 nm",
+                     "label_confidence": 0.8944308757781982,
+                     "box_confidence": 0.993645429611206,
+                     "nm": 5.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 365,
+                        "y": 719
+                     },
+                     {
+                        "x": 365,
+                        "y": 724
+                     },
+                     {
+                        "x": 395,
+                        "y": 724
+                     },
+                     {
+                        "x": 395,
+                        "y": 719
+                     }
+                  ],
+                  "confidence": 0.9678791761398315,
+                  "length": 30,
+                  "label_line_distance": 1152.5
+               }
+            ],
+            "nm_height": 59.0,
+            "nm_width": 55.2,
+            "scale_label": "5.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "microscopy",
+            "confidence": 0.1626,
+            "height": 365.60783936427197,
+            "width": 333.2539325402091,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 384
+               },
+               {
+                  "x": 0,
+                  "y": 749
+               },
+               {
+                  "x": 333,
+                  "y": 384
+               },
+               {
+                  "x": 333,
+                  "y": 749
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 23,
+                     "y": 407
+                  },
+                  {
+                     "x": 23,
+                     "y": 442
+                  },
+                  {
+                     "x": 68,
+                     "y": 407
+                  },
+                  {
+                     "x": 68,
+                     "y": 442
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 23,
+                           "y": 683
+                        },
+                        {
+                           "x": 23,
+                           "y": 720
+                        },
+                        {
+                           "x": 123,
+                           "y": 720
+                        },
+                        {
+                           "x": 123,
+                           "y": 683
+                        }
+                     ],
+                     "text": "10.0 nm",
+                     "label_confidence": 0.9540597796440125,
+                     "box_confidence": 0.9948679208755493,
+                     "nm": 10.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 22,
+                        "y": 723
+                     },
+                     {
+                        "x": 22,
+                        "y": 729
+                     },
+                     {
+                        "x": 69,
+                        "y": 729
+                     },
+                     {
+                        "x": 69,
+                        "y": 723
+                     }
+                  ],
+                  "confidence": 0.9438502788543701,
+                  "length": 46,
+                  "label_line_distance": 1356.5
+               }
+            ],
+            "nm_height": 79.4,
+            "nm_width": 72.4,
+            "scale_label": "10.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "microscopy",
+            "confidence": 0.1626,
+            "height": 376.31096748205334,
+            "width": 336.0071957268627,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 376
+               },
+               {
+                  "x": 336,
+                  "y": 0
+               },
+               {
+                  "x": 336,
+                  "y": 376
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 15,
+                     "y": 23
+                  },
+                  {
+                     "x": 15,
+                     "y": 65
+                  },
+                  {
+                     "x": 66,
+                     "y": 23
+                  },
+                  {
+                     "x": 66,
+                     "y": 65
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 18,
+                           "y": 314
+                        },
+                        {
+                           "x": 18,
+                           "y": 348
+                        },
+                        {
+                           "x": 128,
+                           "y": 348
+                        },
+                        {
+                           "x": 128,
+                           "y": 314
+                        }
+                     ],
+                     "text": "200.0 nm",
+                     "label_confidence": 0.8279712796211243,
+                     "box_confidence": 0.9954239726066589,
+                     "nm": 200.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 21,
+                        "y": 351
+                     },
+                     {
+                        "x": 21,
+                        "y": 357
+                     },
+                     {
+                        "x": 64,
+                        "y": 357
+                     },
+                     {
+                        "x": 64,
+                        "y": 351
+                     }
+                  ],
+                  "confidence": 0.9352946281433105,
+                  "length": 43,
+                  "label_line_distance": 1459.25
+               }
+            ],
+            "nm_height": 1750.2,
+            "nm_width": 1562.8,
+            "scale_label": "200.0 nm",
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig10.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig10_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig10.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "XRD analysis of the synthesized AgNPs.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig10.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.0883,
+            "height": 555,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 555
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 555
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig11.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig11_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig11.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "Comparative FTIR study of the synthesized AgNPs.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig11.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.0764,
+            "height": 629,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 629
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 629
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig12.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig12_HTML.jpg",
+      "figure_name": "s41598-024-69120-0_fig12.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "After 96\u00a0h with sample solutions prior 24\u00a0h of soaking seeds with sample solution.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig12.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.0672,
+            "height": 227,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 227
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 227
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 454,
+                           "y": 186
+                        },
+                        {
+                           "x": 454,
+                           "y": 202
+                        },
+                        {
+                           "x": 492,
+                           "y": 202
+                        },
+                        {
+                           "x": 492,
+                           "y": 186
+                        }
+                     ],
+                     "text": "34.0 cm",
+                     "label_confidence": 0.06267675757408142,
+                     "box_confidence": 0.946999192237854,
+                     "nm": 340000000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 456,
+                        "y": 202
+                     },
+                     {
+                        "x": 456,
+                        "y": 206
+                     },
+                     {
+                        "x": 490,
+                        "y": 206
+                     },
+                     {
+                        "x": 490,
+                        "y": 202
+                     }
+                  ],
+                  "confidence": 0.8093053698539734,
+                  "length": 33,
+                  "label_line_distance": 100.0
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 577,
+                        "y": 199
+                     },
+                     {
+                        "x": 577,
+                        "y": 203
+                     },
+                     {
+                        "x": 620,
+                        "y": 203
+                     },
+                     {
+                        "x": 620,
+                        "y": 199
+                     }
+                  ],
+                  "confidence": 0.6151793003082275,
+                  "length": 43,
+                  "label_line_distance": -1
+               }
+            ],
+            "nm_height": 2338787878.7,
+            "nm_width": 7057575757.5,
+            "scale_label": "34.0 cm",
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig13.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig13_HTML.jpg",
+      "figure_name": "s41598-024-69120-0_fig13.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "After 96\u00a0h prior 3\u00a0h soaking of seeds with sample solution.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig13.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.0816,
+            "height": 139,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 139
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 139
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 480,
+                        "y": 132
+                     },
+                     {
+                        "x": 480,
+                        "y": 135
+                     },
+                     {
+                        "x": 496,
+                        "y": 135
+                     },
+                     {
+                        "x": 496,
+                        "y": 132
+                     }
+                  ],
+                  "confidence": 0.5328062176704407,
+                  "length": 16,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig14.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig14_HTML.jpg",
+      "figure_name": "s41598-024-69120-0_fig14.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "After 96\u00a0h prior 6\u00a0h soaking of seeds.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig14.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.1292,
+            "height": 193,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 193
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 193
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig15.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Fig15_HTML.jpg",
+      "figure_name": "s41598-024-69120-0_fig15.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "After 96\u00a0h prior 9\u00a0h soaking of seeds.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig15.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.1608,
+            "height": 138,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 138
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 138
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41598-024-69120-0_fig16.jpg": {
+      "title": "Green synthesis of silver nanoparticle for catalytic applications and priming study by seed germination | Scientific Reports",
+      "article_url": "https://www.nature.com/articles/s41598-024-69120-0",
+      "article_name": "s41598-024-69120-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-024-69120-0/MediaObjects/41598_2024_69120_Sch1_HTML.png",
+      "figure_name": "s41598-024-69120-0_fig16.jpg",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "open": true,
+      "full_caption": "Reduction of 4\u2013Nitro Aniline.",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41598-024-69120-0_fig16.jpg",
+      "master_images": [
+         {
+            "classification": "diffraction",
+            "confidence": 0.1618,
+            "height": 202,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 202
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 202
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig1.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig1_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig1.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "X-ray structures and UV\u2013Vis spectra of Au24 and Au25 nanoclusters. X-ray structures of the hollow Au24 rod with the central atom dislodged (a), and the Au25 rod (b)36, 37, the central gold atom in the Au25 rod is shown using space-filling model for clarity. Color code: Au, yellow; P, orange; S, red; Cl, green. C and H atoms are not shown for clarity; UV\u2013Vis spectra of the hollow Au24 rod and the Au25 rod are shown in c and d, respectively",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig1.jpg",
+      "master_images": [
+         {
+            "classification": "illustration",
+            "confidence": 0.1626,
+            "height": 232.67587717726775,
+            "width": 324.4112403576191,
+            "geometry": [
+               {
+                  "x": 13,
+                  "y": 243
+               },
+               {
+                  "x": 13,
+                  "y": 476
+               },
+               {
+                  "x": 337,
+                  "y": 243
+               },
+               {
+                  "x": 337,
+                  "y": 476
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 250
+                  },
+                  {
+                     "x": 0,
+                     "y": 274
+                  },
+                  {
+                     "x": 15,
+                     "y": 250
+                  },
+                  {
+                     "x": 15,
+                     "y": 274
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 238.4494005535243,
+            "width": 329.98099400446966,
+            "geometry": [
+               {
+                  "x": 353,
+                  "y": 7
+               },
+               {
+                  "x": 353,
+                  "y": 245
+               },
+               {
+                  "x": 683,
+                  "y": 7
+               },
+               {
+                  "x": 683,
+                  "y": 245
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 359,
+                     "y": 3
+                  },
+                  {
+                     "x": 359,
+                     "y": 21
+                  },
+                  {
+                     "x": 381,
+                     "y": 3
+                  },
+                  {
+                     "x": 381,
+                     "y": 21
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "illustration",
+            "confidence": 0.1626,
+            "height": 225.08098401795476,
+            "width": 308.97615139301007,
+            "geometry": [
+               {
+                  "x": 21,
+                  "y": 12
+               },
+               {
+                  "x": 21,
+                  "y": 237
+               },
+               {
+                  "x": 330,
+                  "y": 12
+               },
+               {
+                  "x": 330,
+                  "y": 237
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 6
+                  },
+                  {
+                     "x": 0,
+                     "y": 22
+                  },
+                  {
+                     "x": 14,
+                     "y": 6
+                  },
+                  {
+                     "x": 14,
+                     "y": 22
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 232.09437701645155,
+            "width": 321.91464268244226,
+            "geometry": [
+               {
+                  "x": 363,
+                  "y": 246
+               },
+               {
+                  "x": 363,
+                  "y": 478
+               },
+               {
+                  "x": 685,
+                  "y": 246
+               },
+               {
+                  "x": 685,
+                  "y": 478
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 359,
+                     "y": 251
+                  },
+                  {
+                     "x": 359,
+                     "y": 270
+                  },
+                  {
+                     "x": 380,
+                     "y": 251
+                  },
+                  {
+                     "x": 380,
+                     "y": 270
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig2.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig2_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig2.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "UV\u2013Vis and ESI-MS spectra of homo-gold and doped MAu24 nanoclusters. a UV\u2013Vis spectra of homo-gold [Au25(PPh3)10(PET)5Cl2]2+ (black line), single Ag doped [Ag1Au24(PPh3)10(PET)5Cl2]2+ (red line), and single Cu doped [Cu1Au24(PPh3)10(PET)5Cl2]2+ (blue line); b Positive mode ESI-MS spectra of homo-gold [Au25(PPh3)10(PET)5Cl2]2+ (black line), single Ag doped [Ag1Au24(PPh3)10(PET)5Cl2]2+ (red line), and single Cu doped [Cu1Au24(PPh3)10(PET)5Cl2]2+ (blue line)",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig2.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1625,
+            "height": 513.9267242871798,
+            "width": 665.750714991423,
+            "geometry": [
+               {
+                  "x": 19,
+                  "y": 551
+               },
+               {
+                  "x": 19,
+                  "y": 1065
+               },
+               {
+                  "x": 685,
+                  "y": 551
+               },
+               {
+                  "x": 685,
+                  "y": 1065
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 551
+                  },
+                  {
+                     "x": 1,
+                     "y": 586
+                  },
+                  {
+                     "x": 23,
+                     "y": 551
+                  },
+                  {
+                     "x": 23,
+                     "y": 586
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 504.0857687363258,
+            "width": 678.390876684296,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 16
+               },
+               {
+                  "x": 0,
+                  "y": 520
+               },
+               {
+                  "x": 678,
+                  "y": 16
+               },
+               {
+                  "x": 678,
+                  "y": 520
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1
+                  },
+                  {
+                     "x": 1,
+                     "y": 34
+                  },
+                  {
+                     "x": 23,
+                     "y": 1
+                  },
+                  {
+                     "x": 23,
+                     "y": 34
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig3.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig3_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig3.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "Shuttling one Ag or Cu atom into the 24-atom hollow gold nanoparticle: pathways of single Ag/Cu entering the hollow Au24 nanoparticle. Note, Ag1Au24 and Cu1Au24 are presented using X-ray cryptographic data of this work, and Au24 structure is adopted from ref. 36. Color codes: Au, yellow; Ag, blue; Cu, magenta. Other non-metal atoms are not shown for clarity",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig3.jpg",
+      "master_images": [
+         {
+            "classification": "illustration",
+            "confidence": 0.0699,
+            "height": 258,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 258
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 258
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig4.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig4_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig4.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "Mechanisms for the formation of hollow Au24 cluster proposed by DFT calculations. The values of interatomic distances are a\u2009=\u2009b\u2009=\u2009c\u2009=\u20092.97, a\u2032\u2009=\u20093.23, b\u2032\u2009=\u20092.90, and c\u2032\u2009=\u20092.86\u2009\u00c5. DFT results show \u0394E\n1\u2009=\u200925.9, \u0394E\n2\u2009=\u20097.1, \u0394E\n3\u2009=\u2009\u22125.2, \u0394E\n4\u2009=\u200934.4, and \u0394E\n5\u2009=\u2009\u221230.7\u2009kcal/mol. Color codes: Au1, green; Au2, gray; other Au, yellow; S, red; P, magenta. Other atoms and bonds are not shown for clarity",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig4.jpg",
+      "master_images": [
+         {
+            "classification": "parent",
+            "confidence": 0.1178,
+            "height": 288,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 288
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 288
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig5.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig5_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig5.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "Mechanisms for the formation of doped MAu24 clusters based on DFT calculations. a Designation of sites P1\u2013P5 in the Au25 structure. DFT-calculated mechanisms for MAu24 (M\u2009=\u2009Cu or Ag) formation with M at b waist and c apex positions. Color code: Au, yellow; S, red; Cl, green; Cu, cyan; Ag, gray. Note, in b, a gold atom at the waist position that is pushed into the vacancy to form CuAu24 is shown in orange. In c, to show two different pathways, i.e., paths 1 and 2, corresponding gold atoms are either presented in dark blue or magenta. Only one Cl and S of the nanoparticle is presented. Other atoms and bonds are not shown for clarity",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig5.jpg",
+      "master_images": [
+         {
+            "classification": "illustration",
+            "confidence": 0.1626,
+            "height": 132.42593175714669,
+            "width": 509.0688401002151,
+            "geometry": [
+               {
+                  "x": 132,
+                  "y": 0
+               },
+               {
+                  "x": 132,
+                  "y": 132
+               },
+               {
+                  "x": 641,
+                  "y": 0
+               },
+               {
+                  "x": 641,
+                  "y": 132
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 175,
+                     "y": 5
+                  },
+                  {
+                     "x": 175,
+                     "y": 19
+                  },
+                  {
+                     "x": 190,
+                     "y": 5
+                  },
+                  {
+                     "x": 190,
+                     "y": 19
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "illustration",
+            "confidence": 0.1609,
+            "height": 101.8247334913774,
+            "width": 150.68774571785562,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 101
+               },
+               {
+                  "x": 150,
+                  "y": 0
+               },
+               {
+                  "x": 150,
+                  "y": 101
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 7
+                  },
+                  {
+                     "x": 0,
+                     "y": 19
+                  },
+                  {
+                     "x": 10,
+                     "y": 7
+                  },
+                  {
+                     "x": 10,
+                     "y": 19
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "illustration",
+            "confidence": 0.1625,
+            "height": 133.25013705166901,
+            "width": 656.2141455136813,
+            "geometry": [
+               {
+                  "x": 10,
+                  "y": 135
+               },
+               {
+                  "x": 10,
+                  "y": 269
+               },
+               {
+                  "x": 666,
+                  "y": 135
+               },
+               {
+                  "x": 666,
+                  "y": 269
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 141
+                  },
+                  {
+                     "x": 1,
+                     "y": 154
+                  },
+                  {
+                     "x": 11,
+                     "y": 141
+                  },
+                  {
+                     "x": 11,
+                     "y": 154
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig6.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig6_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig6.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "UV\u2013Vis and ESI\u2013TOF\u2013MS spectra of the secondary shuttling products. a UV\u2013Vis spectra of [Cu\nx\nAu25\u2212x\n(PPh3)10(PET)5Cl2]2+ (x\u2009=\u20091,2; blue line) and [Ag2Au23(PPh3)10(PET)5Cl2]2+ (red line), and; b Positive mode ESI-MS spectra of [Cu\nx\nAu25\u2212x\n(PPh3)10(PET)5Cl2]2+ (x\u2009=\u20091,2; blue line) and [Ag2Au23(PPh3)10(PET)5Cl2]2+ (red line)",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig6.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1618,
+            "height": 515.3675611202534,
+            "width": 663.4975276273839,
+            "geometry": [
+               {
+                  "x": 19,
+                  "y": 529
+               },
+               {
+                  "x": 19,
+                  "y": 1044
+               },
+               {
+                  "x": 683,
+                  "y": 529
+               },
+               {
+                  "x": 683,
+                  "y": 1044
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 542
+                  },
+                  {
+                     "x": 0,
+                     "y": 576
+                  },
+                  {
+                     "x": 23,
+                     "y": 542
+                  },
+                  {
+                     "x": 23,
+                     "y": 576
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 526.8605780601501,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 529
+               },
+               {
+                  "x": 685,
+                  "y": 2
+               },
+               {
+                  "x": 685,
+                  "y": 529
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 4
+                  },
+                  {
+                     "x": 1,
+                     "y": 31
+                  },
+                  {
+                     "x": 21,
+                     "y": 4
+                  },
+                  {
+                     "x": 21,
+                     "y": 31
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   },
+   "s41467-017-00939-0_fig7.jpg": {
+      "title": "Shuttling single metal atom into and out of a metal nanoparticle | Nature Communications",
+      "article_url": "https://www.nature.com/articles/s41467-017-00939-0",
+      "article_name": "s41467-017-00939-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-017-00939-0/MediaObjects/41467_2017_939_Fig7_HTML.jpg",
+      "figure_name": "s41467-017-00939-0_fig7.jpg",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "open": true,
+      "full_caption": "Proposed mechanism of injecting two Ag atoms into the nanoparticle via the hollowing-refilling sequence: step 1, using PPh3 to make a hole in the solid Au25 nanocluster; step 2, using AgCl to refill this hole and produce Ag1Au24; step 3, continue using PPh3 to make a hole in the Ag1Au24 nanocluster and form the hollow Ag1Au23 nanocluster; step 4, using AgCl to refill the hole and yield the Ag2Au23 nanocluster. Color code: Au, yellow; Ag, magenta",
+      "caption_delimiter": "",
+      "figure_path": "nature-nano\\figures\\s41467-017-00939-0_fig7.jpg",
+      "master_images": [
+         {
+            "classification": "illustration",
+            "confidence": 0.0711,
+            "height": 199,
+            "width": 685,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 199
+               },
+               {
+                  "x": 685,
+                  "y": 0
+               },
+               {
+                  "x": 685,
+                  "y": 199
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": []
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      }
+   }
+}
