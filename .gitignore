@@ -2,6 +2,7 @@
 tutorials/
 exsclaim/figures/checkpoints/*
 output/
+config/ 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

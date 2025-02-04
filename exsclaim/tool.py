@@ -1451,7 +1451,7 @@ class CaptionDistributor(ExsclaimTool):
         
 
     def _update_exsclaim(self,search_query,  exsclaim_dict, figure_name, delimiter, caption_dict):
-        from tools.exsclaim.exsclaim import caption
+        
         llm = search_query["llm"]
         api = search_query["openai_API"]
         exsclaim_dict[figure_name]["caption_delimiter"] = delimiter
@@ -1462,17 +1462,20 @@ class CaptionDistributor(ExsclaimTool):
         # loader = UnstructuredHTMLLoader(file_path)
         # documents = loader.load()
         #loader = UnstructuredHTMLLoader(os.pathjoin("exsclaim", "output", exsclaim_dict["name"], "html", f'{html_filename}.html'))
-        for label in caption_dict.keys():
-            query = (exsclaim_dict[figure_name]["figure_name"].split('.')[0]).split('_')[-1] + label + " " + caption_dict[label]
-            print('query', query)
-            master_image = {
-                "label": label,
-                "description": caption_dict[label],
-                "keywords": caption.safe_summarize_caption(query , api, llm).split(', ') ,
-                # "context": caption.get_context(query, documents,embeddings),
-                # "general": caption.get_keywords(caption.get_context(query, documents,embeddings), api, llm).split(', '),
-            }
-            exsclaim_dict[figure_name]["unassigned"]["captions"].append(master_image)
+        if caption_dict:  
+            # print("caption_dict", caption_dict)
+            for label in caption_dict.keys():
+                query = (exsclaim_dict[figure_name]["figure_name"].split('.')[0]).split('_')[-1] + label + " " + caption_dict[label]
+                # print('query', query)
+                master_image = {
+                    "label": label,
+                    "description": caption_dict[label],
+                    "keywords": caption.safe_summarize_caption(query , api, llm).split(', ') ,
+                    # "context": caption.get_context(query, documents,embeddings),
+                    # "general": caption.get_keywords(caption.get_context(query, documents,embeddings), api, llm).split(', '),
+                }
+                exsclaim_dict[figure_name]["unassigned"]["captions"].append(master_image)
+
         return exsclaim_dict
 
     def _appendJSON(self, exsclaim_json, captions_distributed):

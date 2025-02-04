@@ -30,6 +30,7 @@ from .utilities import boxes
 from .utilities.logging import Printer
 from .utilities.models import load_model_from_checkpoint
 
+from ultralytics import YOLO
 
 def convert_to_rgb(image):
     return image.convert("RGB")
@@ -52,6 +53,29 @@ class FigureSeparator(ExsclaimTool):
 
     def _load_model(self):
         """Load relevant models for the object detection tasks"""
+        """Load YOLO model directly from checkpoint"""
+        try:
+            model_path = os.path.join(
+                os.path.dirname(__file__),
+                "figures/checkpoints/yolov11_finetuned_augmentation_best.pt"
+                # "figures/checkpoints/yolov11_subfigure_classification.pt"
+            )
+            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            
+            # Load model directly from .pt file
+            self.yolo_model = YOLO(model_path)
+            self.yolo_model.to(self.device)
+            
+            # Common YOLO settings if needed
+            self.confidence_threshold = 0.25  # Default confidence threshold
+            self.image_size = 640  # Default YOLO image size
+            
+        except Exception as e:
+            self.logger.error(f"Error loading model: {str(e)}", exc_info=True)
+            raise
+
+
+
         # Set configuration variables
         model_path = os.path.dirname(__file__) + "/figures/"
         configuration_file = model_path + "config/yolov3_default_subfig.cfg"
@@ -231,73 +255,134 @@ class FigureSeparator(ExsclaimTool):
                 os.path.join(search_query["results_dir"], "figures", "*" + ext)
             )
         return (paths,)
+    
 
     def detect_subfigure_boundaries(self, figure_path):
-        """Detects the bounding boxes of subfigures in figure_path
-
-        Args:
-            figure_path: A string, path to an image of a figure
-                from a scientific journal
-        Returns:
-            subfigure_info (list of lists): Each inner list is
-                x1, y1, x2, y2, confidence
-        """
-        # Preprocess the figure for the models
-        img = io.imread(figure_path)
-        if len(np.shape(img)) == 2:
-            img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
-        else:
-            img = cv2.cvtColor(img, cv2.COLOR_RGBA2RGB)
-        img, info_img = process.preprocess(img, self.image_size, jitter=0)
-        img = np.transpose(img / 255.0, (2, 0, 1))
-        img = np.copy(img)
-        img = torch.from_numpy(img).float().unsqueeze(0)
-        img = Variable(img.type(self.dtype))
-
+        """Detects the bounding boxes and labels of subfigures using YOLOv11"""
         img_raw = Image.open(figure_path).convert("RGB")
         width, height = img_raw.size
+        binary_img = np.zeros((height, width, 1))
 
-        # Run model on figure
-        with torch.no_grad():
-            outputs = self.object_detection_model(img.to(self.device))
-            outputs = process.postprocess(
-                outputs,
-                dtype=self.dtype,
-                conf_thre=self.confidence_threshold,
-                nms_thre=self.nms_threshold,
-            )
+        results = self.yolo_model.predict(
+            source=figure_path,
+            imgsz=640,
+            conf=0.6,
+            iou=0.45,
+            max_det=100,
+            agnostic_nms=False,
+        )
 
-        # Reformat model outputs to display bounding boxes in our desired format
-        # List of lists where each inner list is [x1, y1, x2, y2, confidence]
-        subfigure_info = list()
+        subfigure_info = []
 
-        if outputs[0] is None:
-            self.display_info("No Objects Detected! in {}".format(figure_path))
-            return subfigure_info
+        for result in results:
+            # Process results to keep only one detection per class
+            detections_per_class = {}
+            for box in result.boxes:
+                cls_id = int(box.cls[0])
+                conf = box.conf[0]
+                if cls_id not in detections_per_class or conf > detections_per_class[cls_id].conf[0]:
+                    detections_per_class[cls_id] = box
 
-        for x1, y1, x2, y2, conf, cls_conf, cls_pred in outputs[0]:
-            box = process.yolobox2label(
-                [
-                    y1.data.cpu().numpy(),
-                    x1.data.cpu().numpy(),
-                    y2.data.cpu().numpy(),
-                    x2.data.cpu().numpy(),
-                ],
-                info_img,
-            )
-            box[0] = int(min(max(box[0], 0), width - 1))
-            box[1] = int(min(max(box[1], 0), height - 1))
-            box[2] = int(min(max(box[2], 0), width))
-            box[3] = int(min(max(box[3], 0), height))
-            # ensures no extremely small (likely incorrect) boxes are counted
-            small_box_threshold = 5
-            if (
-                box[2] - box[0] > small_box_threshold
-                and box[3] - box[1] > small_box_threshold
-            ):
-                box.append("%.3f" % (cls_conf.item()))
-                subfigure_info.append(box)
-        return subfigure_info
+            # Process the final detections
+            for cls_id, box in detections_per_class.items():
+                x1, y1, x2, y2 = box.xyxy[0].cpu().numpy()
+                conf = float(box.conf[0])
+                
+                # The cls_id is already the correct index since your classes are mapped 0->a, 1->b, etc.
+                label_idx = cls_id  # This will be used directly as the label index
+
+                # Ensure coordinates are within image bounds
+                x1 = int(min(max(x1, 0), width - 1))
+                y1 = int(min(max(y1, 0), height - 1))
+                x2 = int(min(max(x2, 0), width))
+                y2 = int(min(max(y2, 0), height))
+
+                # Filter out extremely small boxes
+                if (x2 - x1 > 5 and y2 - y1 > 5):
+                    # Add to binary mask for visualization
+                    if (x2 - x1) < 64 and (y2 - y1) < 64:
+                        binary_img[y1:y2, x1:x2] = 255
+                        
+                    subfigure_info.append(
+                        (label_idx,         # class_id (0 for 'a', 1 for 'b', etc.)
+                        float(x1),         # x coordinate
+                        float(y1),         # y coordinate
+                        float(x2 - x1),    # width
+                        float(y2 - y1))    # height
+                    )
+
+        # Create concatenated image needed for classify_subfigures
+        concate_img = np.concatenate((np.array(img_raw), binary_img), axis=2)
+        print('subfigure_info', subfigure_info)
+        return subfigure_info, concate_img
+
+
+    # def detect_subfigure_boundaries(self, figure_path):
+    #     """Detects the bounding boxes of subfigures in figure_path
+
+    #     Args:
+    #         figure_path: A string, path to an image of a figure
+    #             from a scientific journal
+    #     Returns:
+    #         subfigure_info (list of lists): Each inner list is
+    #             x1, y1, x2, y2, confidence
+    #     """
+    #     # Preprocess the figure for the models
+    #     img = io.imread(figure_path)
+    #     if len(np.shape(img)) == 2:
+    #         img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
+    #     else:
+    #         img = cv2.cvtColor(img, cv2.COLOR_RGBA2RGB)
+    #     img, info_img = process.preprocess(img, self.image_size, jitter=0)
+    #     img = np.transpose(img / 255.0, (2, 0, 1))
+    #     img = np.copy(img)
+    #     img = torch.from_numpy(img).float().unsqueeze(0)
+    #     img = Variable(img.type(self.dtype))
+
+    #     img_raw = Image.open(figure_path).convert("RGB")
+    #     width, height = img_raw.size
+
+    #     # Run model on figure
+    #     with torch.no_grad():
+    #         outputs = self.object_detection_model(img.to(self.device))
+    #         outputs = process.postprocess(
+    #             outputs,
+    #             dtype=self.dtype,
+    #             conf_thre=self.confidence_threshold,
+    #             nms_thre=self.nms_threshold,
+    #         )
+
+    #     # Reformat model outputs to display bounding boxes in our desired format
+    #     # List of lists where each inner list is [x1, y1, x2, y2, confidence]
+    #     subfigure_info = list()
+
+    #     if outputs[0] is None:
+    #         self.display_info("No Objects Detected! in {}".format(figure_path))
+    #         return subfigure_info
+
+    #     for x1, y1, x2, y2, conf, cls_conf, cls_pred in outputs[0]:
+    #         box = process.yolobox2label(
+    #             [
+    #                 y1.data.cpu().numpy(),
+    #                 x1.data.cpu().numpy(),
+    #                 y2.data.cpu().numpy(),
+    #                 x2.data.cpu().numpy(),
+    #             ],
+    #             info_img,
+    #         )
+    #         box[0] = int(min(max(box[0], 0), width - 1))
+    #         box[1] = int(min(max(box[1], 0), height - 1))
+    #         box[2] = int(min(max(box[2], 0), width))
+    #         box[3] = int(min(max(box[3], 0), height))
+    #         # ensures no extremely small (likely incorrect) boxes are counted
+    #         small_box_threshold = 5
+    #         if (
+    #             box[2] - box[0] > small_box_threshold
+    #             and box[3] - box[1] > small_box_threshold
+    #         ):
+    #             box.append("%.3f" % (cls_conf.item()))
+    #             subfigure_info.append(box)
+    #     return subfigure_info
 
     def detect_subfigure_labels(self, figure_path, subfigure_info):
         """Uses text recognition to read subfigure labels from figure_path
@@ -768,39 +853,174 @@ class FigureSeparator(ExsclaimTool):
         figure_json["master_images"] = master_images
         return figure_json
 
+    # def extract_image_objects(self, figure_path=str) -> dict:
+    #     """Separate and classify subfigures in an article figure
+
+    #     Args:
+    #         figure_path (str): A path to the image (.png, .jpg, or .gif)
+    #             file containing the article figure
+    #     Returns:
+    #         figure_json (dict): A dictionary with classified image_objects
+    #             extracted from figure
+    #     """
+    #     # Set models to evaluation mode
+    #     self.object_detection_model.eval()
+    #     self.text_recognition_model.eval()
+    #     self.classifier_model.eval()
+    #     self.scale_bar_detection_model.eval()
+
+    #     # Get full path to figure
+    #     full_figure_path = self.results_directory.parent / figure_path
+
+    #     # Detect the bounding boxes of each subfigure
+    #     subfigure_info = self.detect_subfigure_boundaries(full_figure_path)
+
+    #     # Detect the subfigure labels on each of the bboxes found
+    #     subfigure_info, concate_img = self.detect_subfigure_labels(
+    #         full_figure_path, subfigure_info
+    #     )
+
+    #     # Classify the subfigures
+    #     figure_json = self.classify_subfigures(
+    #         full_figure_path, subfigure_info, concate_img
+    #     )
+
+    #     # Detect scale bar lines and labels
+    #     figure_json = self.determine_scale(full_figure_path, figure_json)
+
+    #     return figure_json
+    # def extract_image_objects(self, figure_path=str) -> dict:
+    #     """Separate and classify subfigures in an article figure
+
+    #     Args:
+    #         figure_path (str): A path to the image file
+    #     Returns:
+    #         figure_json (dict): A dictionary with classified image_objects
+    #     """
+    #     # Set models to evaluation mode
+    #     self.yolo_model.eval()  # Only need YOLO model now
+    #     self.scale_bar_detection_model.eval()
+    #     self.classifier_model.eval()
+
+    #     # Get full path to figure
+    #     full_figure_path = self.results_directory.parent / figure_path
+
+    #     # Detect subfigures and their labels in one step
+    #     subfigure_info, concate_img = self.detect_subfigure_boundaries(full_figure_path)
+
+    #     # Classify the subfigures
+    #     figure_json = self.classify_subfigures(
+    #         full_figure_path, subfigure_info, concate_img
+    #     )
+
+    #     # Detect scale bar lines and labels
+    #     figure_json = self.determine_scale(full_figure_path, figure_json)
+
+    #     return figure_json
+
     def extract_image_objects(self, figure_path=str) -> dict:
-        """Separate and classify subfigures in an article figure
-
-        Args:
-            figure_path (str): A path to the image (.png, .jpg, or .gif)
-                file containing the article figure
-        Returns:
-            figure_json (dict): A dictionary with classified image_objects
-                extracted from figure
-        """
-        # Set models to evaluation mode
-        self.object_detection_model.eval()
-        self.text_recognition_model.eval()
-        self.classifier_model.eval()
-        self.scale_bar_detection_model.eval()
-
+        """Separate and classify subfigures in an article figure"""
         # Get full path to figure
         full_figure_path = self.results_directory.parent / figure_path
+        
+        # Get image for cropping
+        img_raw = Image.open(full_figure_path).convert("RGB")
+        width, height = img_raw.size
+        binary_img = np.zeros((height, width, 1))
 
-        # Detect the bounding boxes of each subfigure
-        subfigure_info = self.detect_subfigure_boundaries(full_figure_path)
+        # Get figure name without extension for directory naming
+        figure_base_name = pathlib.Path(figure_path).stem
 
-        # Detect the subfigure labels on each of the bboxes found
-        subfigure_info, concate_img = self.detect_subfigure_labels(
-            full_figure_path, subfigure_info
+        # Run YOLO detection with higher confidence threshold
+        results = self.yolo_model.predict(
+            source=full_figure_path,
+            imgsz=640,
+            conf=0.8,
+            iou=0.45,
+            max_det=100,
+            agnostic_nms=False,
         )
 
-        # Classify the subfigures
-        figure_json = self.classify_subfigures(
-            full_figure_path, subfigure_info, concate_img
-        )
+        # Initialize variables
+        figure_name = figure_path.name
+        figure_json = self.exsclaim_json.get(figure_name, {})
+        figure_json["figure_name"] = figure_name
+        figure_json["master_images"] = []
 
-        # Detect scale bar lines and labels
-        figure_json = self.determine_scale(full_figure_path, figure_json)
+        # Process detections
+        detections_per_class = {}
+        
+        for result in results:
+            for box in result.boxes:
+                cls_id = int(box.cls[0])
+                conf = box.conf[0]
+                if cls_id not in detections_per_class or conf > detections_per_class[cls_id].conf[0]:
+                    detections_per_class[cls_id] = box
+
+        # Process each final detection
+        for cls_id, box in detections_per_class.items():
+            x1, y1, x2, y2 = box.xyxy[0].cpu().numpy()
+            conf = float(box.conf[0])
+            
+            # Ensure coordinates are within bounds and boxes aren't too small
+            x1 = int(min(max(x1, 0), width - 1))
+            y1 = int(min(max(y1, 0), height - 1))
+            x2 = int(min(max(x2, 0), width))
+            y2 = int(min(max(y2, 0), height))
+            
+            if (x2 - x1 <= 5 or y2 - y1 <= 5):
+                continue
+
+            # Get the label
+            label = self.yolo_model.names[cls_id]  # This will be 'a', 'b', 'c', etc.
+            
+            # Add to binary mask for visualization if small enough
+            if (x2 - x1) < 64 and (y2 - y1) < 64:
+                binary_img[y1:y2, x1:x2] = 255
+
+            # Create master_image_info
+            master_image_info = {
+                "classification": "subfigure",
+                "confidence": float(conf),
+                "height": int(y2 - y1),
+                "width": int(x2 - x1),
+                "geometry": [
+                    {"x": int(x1), "y": int(y1)},
+                    {"x": int(x2), "y": int(y1)},
+                    {"x": int(x1), "y": int(y2)},
+                    {"x": int(x2), "y": int(y2)}
+                ],
+                "subfigure_label": {
+                    "text": label,
+                    "geometry": [
+                        {"x": int(x1), "y": int(y1)},
+                        {"x": int(x2), "y": int(y1)},
+                        {"x": int(x1), "y": int(y2)},
+                        {"x": int(x2), "y": int(y2)}
+                    ]
+                }
+            }
+
+            # Create output directory structure using figure_base_name (without extension)
+            base_dir = self.results_directory / "images" / figure_base_name
+            subfig_dir = base_dir / label
+            os.makedirs(subfig_dir, exist_ok=True)
+                            
+            # Crop and save using base name for output filename
+            cropped_img = img_raw.crop((x1, y1, x2, y2))
+            output_filename = f"{figure_base_name}_{label}.png"
+            cropped_img.save(subfig_dir / output_filename)
+
+            figure_json["master_images"].append(master_image_info)
+
+        # Update the JSON
+        self.exsclaim_json[figure_name] = figure_json
+
+        # Detect scale bar lines and labels if needed
+        if hasattr(self, 'determine_scale'):
+            figure_json = self.determine_scale(full_figure_path, figure_json)
 
         return figure_json
+    
+
+
